@@ -1,0 +1,38 @@
+---
+import { Image, Picture } from '@astrojs/image/components';
+import getIcon from '../utilities/getIcon';
+export interface Props {
+	title: string;
+	url: string;
+  faviconUrl?: string;
+}
+
+const { title, url, faviconUrl } = Astro.props;
+
+const imagePath = await getIcon(faviconUrl || url);
+console.log(imagePath);
+//return;
+
+---
+<a href={url} class="mr-1">
+  <span class="
+    bg-gray-100 
+    text-gray-800 
+    dark:bg-gray-700 
+    dark:text-gray-300
+    hover:bg-gray-200
+    hover:text-gray-900
+    text-sm 
+    font-medium 
+    inline-flex 
+    items-center 
+    px-2.5 
+    py-0.5 
+    rounded
+    group">
+    <div class="inline-flex items-center">
+      <Image class="w-3.5 me-1 aspect-square filter grayscale group-hover:grayscale-0 group-hover:filter-none" width={64} aspectRatio="1:1" src={imagePath} alt={title} />
+    </div>
+    {title}
+  </span>
+</a>

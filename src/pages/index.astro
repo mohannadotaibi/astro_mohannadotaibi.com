@@ -4,16 +4,26 @@ import Card from '../components/Card.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Section from '../components/Section.astro';
+import { linked_sections } from '../assets/data/db.json';
+
 ---
 
 <Layout title="Mohannad Faihan (Dalbahi) Otaibi">
-	<main class="m-auto p-6 max-w-5xl">
+	<main class="m-auto px-6 max-w-5xl">
 		<Header />
-		<Section title="some title" />
-		<Section title="some title" />
-		<Section title="some title" />
-		<Section title="some title" />
-		<Section title="some title" />
+		
+			<Section content={linked_sections.applications} />
+			<Section content={linked_sections.languages} />
+			<Section content={linked_sections.accomplishments} />
+			<Section content={linked_sections.standards} />
+			<Section content={linked_sections.organizations} />
+			
+			<Section content={linked_sections.bookmarks} />
+			
+			
+			<Section content={linked_sections.games} />
+			
+		
 		<p class="instructions leading-relaxed my-4 border border-accent border-opacity-25 bg-white dark:bg-slate-800 p-4 rounded-md">
 			To get started, open the directory <code class="">src/pages</code> in your project.<br />
 			<strong class="text-indigo-700 dark:text-indigo-300">Code Challenge:</strong> Tweak the "Welcome to Astro" message above.

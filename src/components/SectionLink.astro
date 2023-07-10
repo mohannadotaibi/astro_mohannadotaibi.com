@@ -1,0 +1,21 @@
+---
+import { Image } from '@astrojs/image/components';
+import getIcon from '../utilities/getIcon';
+export interface Props {
+	title: string;
+	url: string;
+}
+
+const { title, url } = Astro.props;
+
+const imagePath = await getIcon(url);
+console.log(imagePath);
+//return;
+
+---
+<a href={url} class="bg-white bg-opacity-5 rounded-md ps-1 py-1 pe-2 hover:bg-opacity-30 hover:bg-cyan-300 group">
+  <div class="flex flex-row justify-start items-center">
+    <Image class="w-6 md:w-12 rounded-md me-2 aspect-square filter grayscale group-hover:grayscale-0 group-hover:filter-none" width={64} aspectRatio="1:1" src={imagePath} alt={title} />
+    <h5 class="font-normal text text-slate-300">{title}</h5>
+  </div>
+</a>

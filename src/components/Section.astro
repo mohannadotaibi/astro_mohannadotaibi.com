@@ -1,11 +1,18 @@
 ---
+import SectionLink from './SectionLink.astro';
 export interface Props {
-	title: string;
+	content: any;
 }
 
-const { title } = Astro.props;
+const { content } = Astro.props;
 ---
 
-<section class="my-10 border border-indigo-500 p-5 rounded-xl shadow-md shadow-slate-500">
-	<h2>{title}</h2>
+<section class="my-20">
+	<h2 class="font-extrabold text-2xl inline me-1">{content.title}</h2>
+	<p class="text-gray-400 inline">{content.description}</p>
+	<hr class="my-4 border-indigo-400" />
+	<div class="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4">
+		{content.data.map((item: any) => (
+			<SectionLink {...item} />
+		))}
 </section>

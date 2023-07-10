@@ -1,0 +1,320 @@
+{
+  "general":{
+    "title" : "Mohannad Faihan (Dalbahi) Otaibi",
+    "description" : "",
+    "keywords" : "",
+    "slogan" : "",
+    "biography" : "Techno-maniac, love change, Founder of @Hardlayers and @6degz, CTO of @promoefficiency, @efficiencys, @deets_sa, @burooj, ",
+    "bio" : "The Geek you wanna talk to about technology and stuff.. I code and I'm in looove with change..!",
+    "hashtags": "#Saudi, #xKFUPMer, #Comبuتer_geeك, #MsLkjy, #M5_wAjD_5rBaN, #ENFJ, #Married, #Father, #8ies, #Tabs-Team",
+    "email": "mohannad.otaibi@gmail.com",
+    "phone": "966545582222",
+    "cv": "/assets/files/20230530 Mohannad Otaibi CV.pdf",
+    "old_nicknames": [
+      "interboy", "theinterboy", "mfotaibi", "dabdoobnet", "انتربوي"
+    ],
+    "old_emails":[
+      "mfotaibi@flashmail.com", "mfotaibi@hotmail.com", "dabdoobnet@hotmail.com", "theinterboy@yahoo.com","interboy@c4arab.com","montada@mo9a7i.com"
+    ],
+    "social_links" :{
+      "title":"Social Media Accounts",
+      "description":"Find me on one or more of the following links",
+      "data":{
+        "general":[
+          {"title": "Twitter", "description:": "", "url": "https://twitter.com/bufai7an", "favicoDomain":"developer.twitter.com"},
+          {"title": "LinkedIn", "description:": "", "url": "https://www.linkedin.com/in/mohannadotaibi/"},
+          {"title": "Twitch", "description:": "", "url": "https://www.twitch.tv/bufai7an"},
+          {"title": "BuFai7an.Live", "description:": "", "url": "https://bufai7an.live/"},
+          {"title": "YouTube", "description:": "", "url": "https://www.youtube.com/user/mo9a7i"},
+          {"title": "Foursquare", "url":"https://foursquare.com/bufai7an"}
+        ],
+        "technical" :[
+          {"title": "GitHub", "descrption:": "", "url": "https://github.com/Mo9a7i"},
+          {"title": "StackOverflow", "descrption:": "", "url": "https://stackoverflow.com/users/5588602/mohannad-otaibi"},
+          {"title": "Traidnt.net", "descrption:": "", "url": "http://web.archive.org/web/20160213150705/http://www.traidnt.net/vb/u53424/"},
+          {"title": "ADSLGATE", "descrption:": "", "url": "https://www.adslgate.com/dsl/member.php?u=299526"},
+          {"title": "Swalif.net", "descrption:": "", "url": "https://www.swalif.net/softs/1317.html"}
+        ]
+      }
+    }
+  },
+  "linked_sections":{
+    "applications":{
+      "title":"💻 Software Arsenal",
+      "description":"Apps and Programs I depend on in my setups to finish work",
+      "data": [
+        { "title": "SAP S4HANA", "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE"},
+        { "title": "SAP Ariba", "url": "https://www.sap.com/mena/products/spend-management/ariba-login.html"},
+        { "title": "VS Code", "url": "https://code.visualstudio.com/"},
+        { "title": "Insomnia", "url": "https://insomnia.rest/"},
+        { "title": "Termius", "url": "https://termius.com/"},
+        { "title": "GitHub Desktop", "url": "https://desktop.github.com/"},
+        { "title": "Docker Desktop", "url": "https://www.docker.com/products/docker-desktop/"},
+        { "title": "WinSCP", "url": "https://winscp.net/eng/download.php"},
+        { "title": "MySQL Workbench", "url": "https://www.mysql.com/products/workbench/"},
+        { "title": "Chocolatey", "url": "https://chocolatey.org/"},
+        { "title": "Homebrew", "url": "https://brew.sh/"},
+        { "title": "Winget", "url": "https://learn.microsoft.com/en-us/windows/package-manager/winget/"},
+        { "title": "Figma", "url": "https://www.figma.com/"},
+        { "title": "VMWare Workstation", "url": "https://www.vmware.com/products/workstation-pro.html"},
+        { "title": "VMWare ESXi", "url": "https://www.vmware.com/products/esxi-and-esx.html"},
+        { "title": "VM VirtualBox", "url": "https://www.virtualbox.org/"},
+        { "title": "Fiddler", "url": "https://www.telerik.com/fiddler/"},
+        { "title": "K-Lite", "url": "https://codecguide.com/download_kl.htm"},
+        { "title": "Streamlabs OBS", "url": "https://streamlabs.com/"},
+        { "title": "SteelSeries GG", "url": "https://steelseries.com/gg/"},
+        { "title": "Discord", "url": "https://discord.com/"},
+        { "title": "Steam", "url": "https://store.steampowered.com/"},
+        { "title": "Stremio", "url": "https://www.stremio.com/"},
+        { "title": "WinDirStat", "url": "https://windirstat.net/"},
+        { "title": "Advanced IP Scanner", "url": "https://www.advanced-ip-scanner.com/"},   
+        { "title": "Recuva", "url": "https://www.ccleaner.com/recuva"},
+        { "title": "Revo Uninstaller", "url": "https://www.revouninstaller.com/"},
+        { "title": "Chrome", "url": "https://www.google.com/chrome/"},
+        { "title": "FireFox", "url": "https://www.mozilla.org/en-US/firefox/new/"},
+        { "title": "Brave Browser", "url": "https://brave.com/"},
+        { "title": "MS Office", "url": "https://www.microsoft.com/en-us/microsoft-365/get-started-with-office-2019"},
+        { "title": "Adobe Suite", "url": "https://www.adobe.com/creativecloud.html"},
+        { "title": "Free Download Manager", "url": "https://www.freedownloadmanager.org/"},
+        { "title": "7-zip", "url": "https://www.7-zip.org/"},
+        { "title": "CCleaner", "url": "https://www.ccleaner.com/"},
+        { "title": "Grammarly", "url": "https://developer.grammarly.com/"},
+        { "title": "Google Drive", "url": "https://www.google.com/drive/download/"},
+        { "title": "Warp", "url": "https://1.1.1.1/"},
+        { "title": "PowerToys", "url": "https://www.cgsecurity.org/wiki/TestDisk"},
+        { "title": "TestDisk", "url": "https://github.com/microsoft/PowerToys/"},
+        { "title": "BitWarden", "url": "https://bitwarden.com/"} 
+      ]
+    },
+    "bookmarks": {
+      "title":"🔗 Bookmarks",
+      "description":"of Websites I enjoy browsing, or need, most of the time",
+      "data": [
+        {"title": "Smashing Magazine","url": "https://www.smashingmagazine.com/"},
+        
+        {"title": "David Walsh","url": "https://davidwalsh.name/"},
+        {"title": "Abraham Williams","url": "https://abrah.am/"},
+  
+        {"title": "Hacker News","url": "https://news.ycombinator.com/"},
+        {"title": "BlackHat World (SEO)","url": "https://www.blackhatworld.com/"},
+        {"title": "Tiny Subversions","url": "https://tinysubversions.com/"},
+  
+        {"title": "FileHippo","url": "https://filehippo.com/"},
+        {"title": "Cats Who Code","url": "https://catswhocode.com/"},
+        {"title": "Tech Crunch","url": "https://techcrunch.com/"},
+        {"title": "@flaviocopes","url": "https://flaviocopes.com/"},
+        {"title": "Tuts+","url": "https://tutsplus.com/tutorials"},
+        {"title": "SpeckyBoy","url": "https://speckyboy.com/"},
+        {"title": "Dynamic Drive","url": "https://dynamicdrive.com/"},
+        {"title": "Tutorial 9","url": "#"},
+        {"title": "Google Hosted Libraries","url": "https://developers.google.com/speed/libraries"},
+        {"title": "Daily Design Inspiration","url": "#"},
+        {"title": "iBrand Studio","url": "https://ibrandstudio.com/"},
+        {"title": "DesignModo","url": "https://designmodo.com/"},
+        {"title": "AskDaveTylor","url": "https://www.askdavetaylor.com/"},
+        {"title": "DeviantArt","url": "https://www.deviantart.com/"},
+        {"title": "Product Hunt","url": "https://www.producthunt.com/"},      
+        {"title": "GetApp","url": "https://www.getapp.com/"},
+        {"title": "AllThingsWorkplace","url": "https://www.allthingsworkplace.com/"},
+        {"title": "Momondo","url": "https://www.momondo.com/"},
+        {"title": "UX Booth","url": "https://www.uxbooth.com/"},
+        {"title": "HowToGeek","url": "https://www.howtogeek.com/"},
+        {"title": "PWN Wiki","url": "https://pwnwiki.io/#!index.md"},
+        {"title": "mubix","url": "https://mubix.github.io/"},
+        {"title": "Sahab.net","url": "https://www.sahab.net/"},
+        {"title": "Traidnt.net","url": "http://web.archive.org/web/20160213150705/http://www.traidnt.net/vb"},
+        {"title": "C4Arab.com","url": "https://c4arab.virtualave.net/"},
+        {"title": "interboy.net","url": "https://interboy.net/"},
+        {"title": "Alkahf","url": "https://web.archive.org/web/20020802175234/https://alkhf.com/"},
+        {"title": "Organizational Psychology","url": "https://en.wikipedia.org/wiki/Industrial_and_organizational_psychology/"},
+        {"title": "Change Management","url": "https://en.wikipedia.org/wiki/Change_management/"},
+        {"title": "Problem Solving","url": "https://en.wikipedia.org/wiki/Problem_solving/"},
+        {"title": "Operational Excellence","url": "https://en.wikipedia.org/wiki/Operational_excellence"},
+        {"title": "Process Management","url": "https://en.wikipedia.org/wiki/Process_management_(computing)/"}
+      ]
+    },
+  
+    "organizations":{
+      "title":"💼 Organizations",
+      "description":"that I respect and follow their work",
+      "data":[
+        {"title": "6 Degrees Tech","url": "https://www.6degrees.com.sa/"},
+        {"title": "Promotion Efficiency","url": "https://www.promoe.com.sa/"},
+        {"title": "Efficiency Center","url": "https://www.efficiencys.com.sa/"},
+        {"title": "Burooj","url": "https://www.Burooj.pro/"},
+        {"title": "Deets.Pro","url": "https://www.deets.pro/"},
+        {"title": "Zahma o La","url": "https://www.zahmaola.com/"},
+        {"title": "Hetzner","url": "https://www.hetzner.com/"},
+        {"title": "Cloudflare","url": "https://www.cloudflare.com/"},
+        {"title": "Nothink.org","url": "https://www.nothink.org/"},
+        {"title": "Helge Klein / SetACL","url": "https://helgeklein.com/"},
+        {"title": "DigitalOcean","url": "https://www.digitalocean.com/"},
+        {"title": "GitHub","url": "https://www.github.com/"},
+        {"title": "cPanel","url": "https://www.cpanel.net/"},
+        {"title": "WHMCS","url": "https://www.whmcs.com/"},
+        {"title": "Clickatell","url": "https://www.clickatell.com/"},
+        {"title": "Toot Studio","url": "https://toot.com.sa/en/"}
+      ]
+    },
+    "accomplishments":{
+      "title":"🏆 Achievements",
+      "description":"pieces of work done that I'm proud of",
+      "data":[
+        {"title": "أشياء لازم تتفاهم مع شركة البرمجة عليها بخصوص تطبيقك الجديد","url": "https://github.6degrees.com.sa/","arabic": true},
+        {"title": "تجربتي في غسل مذربورد MBP 13 i7 من آثار شاهي","url": "https://www.adslgate.com/dsl/showthread.php?t=1180584","arabic": true},
+        {"title": "vBulletinner.sh","url": "https://www.swalif.net/softs/swalif68/softs248354/"},
+        {"title": "vBulletinner.sh +","url": "http://web.archive.org/web/20160213150705/http://www.traidnt.net/vb/traidnt1298111/"},
+        {"title": "NetLogger","url": "https://mo9a7i.com/2009/Netloggerexe-%D9%84%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D8%A7%D9%84%D8%B5%D9%88%D8%B1"},
+        {"title": "FTPer","description": "Small bash script '/usr/local/bin' to automate sending files to a remote ftp through command line","url": "https://gist.github.com/mo9a7i/1ad6f6485ee7a490da8db615ff527e4f"},
+        {"title": "Path App API Wrapper","url": "https://github.com/mo9a7i/CI_Path_API"},
+        {"title": "لماذا لايعمل الدومين الخاص بي مباشرة بعد حجزه؟","url": "http://web.archive.org/web/20150517010722/http://www.traidnt.net/vb/traidnt1027285-2/","arabic": true}
+      ]
+    },
+  
+    "languages":{
+      "title":"📚 Dev Skillz",
+      "description":"Porgramming languages, Frameworks and Development tools that I am comfortable using",
+      "data": [
+        {"title": "JAVA","url": "https://www.java.com/en/download/"},
+  
+        {"title": "Dart","url": "https://dart.dev/"},
+        {"title": "Flutter","url": "https://flutter.dev/"},
+  
+        {"title": "PHP","url": "https://www.php.net/"},
+        {"title": "CodeIgniter","url": "https://codeigniter.com/"},
+        {"title": "Laravel","url": "https://laravel.com/"},
+        {"title": "WordPress Plugins","url": "https://developer.wordpress.org/plugins/"},
+  
+  
+        {"title": "ASP.NET","url": "https://dotnet.microsoft.com/en-us/apps/aspnet/"},
+        {"title": "C#","url": "https://docs.microsoft.com/en-us/dotnet/csharp/"},
+        {"title": "VBA","url": "https://docs.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office"},
+        {"title": "VB.net","url": "https://docs.microsoft.com/en-us/dotnet/visual-basic/"},
+  
+        
+        {"title": "Javascript","url": "https://www.w3schools.com/js/DEFAULT.asp"},
+        {"title": "NodeJs","url": "https://nodejs.org/en/"},
+        {"title": "Express.js","url": "https://expressjs.com/"},
+        
+        {"title": "NuxtJS","url": "https://nuxtjs.org/"},
+        {"title": "AdonisJS","url": "https://adonisjs.com/"},
+        {"title": "Strapi","url": "https://strapi.io/"},
+        {"title": "Vue.js","url": "https://vuejs.org/"},
+        {"title": "jQuery","url": "https://jquery.com/"},
+  
+        {"title": "HTML","url": "https://www.w3schools.com/html/"},
+        {"title": "SASS/SCSS","url": "https://sass-lang.com/"},
+        {"title": "Bootstrap","url": "https://getbootstrap.com/"},
+        {"title": "Tailwind","url": "https://tailwindcss.com/resources/"},
+        {"title": "Jekyll","url": "https://jekyllrb.com/"},
+  
+        {"title": "Python","url": "https://www.python.org/"},
+        {"title": "Perl","url": "https://www.perl.org/"},
+        
+  
+        {"title": "bash","url": "https://www.gnu.org/software/bash/"},
+        {"title": "Batch","url": "https://www.tutorialspoint.com/batch_script/index.htm"},
+        {"title": "PowerShell","url": "https://www.tutorialspoint.com/powershell/powershell_scripting.htm"},
+        
+        {"title": "SQL (my/MS)","url": "https://www.w3schools.com/sql/"},
+        {"title": "Firebase","url": "https://firebase.google.com/"},  
+        {"title": "Docker","url": "https://www.docker.com/"},
+  
+        {"title": "Markdown","url": "https://www.markdownguide.org/"}
+        
+      ]
+    },
+    "standards":{
+      "title":"📜 Standards",
+      "description":"I try to go by and use",
+      "data":[
+        {"title": "Serverless","url": "https://serverless.css-tricks.com/services/"},
+        {"title": "DRY","url": "https://en.wikipedia.org/wiki/Don't_repeat_yourself"},
+        {"title": "10 Laws to Design By","url": "https://3.7designs.co/blog/2010/07/ten-laws-to-design-by/"},
+        {"title": "PSR-2","url": "https://www.php-fig.org/psr/psr-2/"},
+        {"title": "PHP The Right Way","url": "https://phptherightway.com/"},
+        {"title": "PHP Best Practices","url": "https://phpbestpractices.org/"},
+        {"title": "Getting Things Done","url": "https://en.wikipedia.org/wiki/Getting_Things_Done"},
+        {"title": "Usability Testing Demystified","url": "https://alistapart.com/article/usability-testing-demystified/"},
+        {"title": "Article Publishing Guidelines","url": "https://web.archive.org/web/20120507051131/https://www.readability.com/publishers/guidelines/"}
+      ]
+    },
+  
+    "games":{
+      "title":"🎮 Games I Play",
+      "description":"when I have time",
+      "data":[
+        {"title": "Second Life","url": "https://secondlife.com/"},
+        {"title": "Call of Duty® 4: Modern Warfare®","url": "https://store.steampowered.com/app/7940/Call_of_Duty_4_Modern_Warfare/"},
+        {"title": "Call of Duty®: Modern Warfare® 2","url": "https://store.steampowered.com/app/10180/Call_of_Duty_Modern_Warfare_2/"},
+        {"title": "Call of Duty: World at War","url": "https://store.steampowered.com/app/10090/Call_of_Duty_World_at_War/"},
+        {"title": "Call of Duty®: Black Ops","url": "https://store.steampowered.com/app/42700/Call_of_Duty_Black_Ops/"},
+        {"title": "Call of Duty®: Modern Warfare® 3","url": "https://store.steampowered.com/app/115300/Call_of_Duty_Modern_Warfare_3/"},
+        {"title": "Call of Duty®: Black Ops II","url": "https://store.steampowered.com/app/202970/Call_of_Duty_Black_Ops_II/"},
+        {"title": "Call of Duty®: Modern Warfare® Remastered","url": "https://www.callofduty.com/modern-warfare-remastered"},
+        {"title": "Call of Duty: Modern Warfare","url": "https://www.callofduty.com/modernwarfare"},
+        {"title": "FiveM GTA","url": "https://fivem.net/"}
+      ]
+    }
+  },
+  
+  
+  "quotes": {
+    "title": "💡 Quotes",
+    "description": "I try to Live by and respect",
+    "data": [
+      {"quote": "You cannot arrest an idea, it is bulletproof.","author": "Anonymous"},
+      {"quote": "The Quiter you become, the more you are able to hear","author": "Quoted by BackTrack OS, By Rumi"},
+      {"quote": "We only see two things in people; what we want to see, and what they want to show us.","author": "James Remer, as Harry Morgan"},
+      {"quote": "It is not the strongest species that survive, nor the most intelligent, but the ones responsive to change.","author": "Charles Darwin"}
+    ]
+  },
+  
+
+  
+
+  "Comment": "// Open Source I Like",
+
+
+  "playlist":{
+    "title": "YouTube",
+    "description": "My Youtube Favorites",
+    "data": {
+    }
+  },
+  
+  
+  "locations": {
+    "title": "🌎 Places",
+    "description": "my feet touched",
+    "data": [
+      {"lat": "61.912363","lng": "25.824976"},
+      {"lat": "37.5652154","lng": "126.9195105"},
+      {"lat": "34.1486076","lng": "-118.0168104"},
+      {"lat": "34.0207305","lng": "-118.6919117"},
+      {"lat": "42.3144556","lng": "-71.0403234"},
+      {"lat": "29.817402","lng": "-95.5413744"},
+      {"lat": "30.0595581","lng": "31.223445"},
+      {"lat": "51.505100","lng": "-0.019821"},
+      {"lat": "16.906198","lng": "42.557793"},
+      {"lat": "21.530802","lng": "39.185705"},
+      {"lat": "22.319590","lng": "39.101715"},
+      {"lat": "23.137580","lng": "113.281647"},
+      {"lat": "25.289414","lng": "51.535639"},
+      {"lat": "22.548507","lng": "114.086711"},
+      {"lat": "22.291509","lng": "113.942321"},
+      {"lat": "27.348966","lng": "35.697899"},
+      {"lat": "28.383059","lng": "36.583017"},
+      {"lat": "28.415974","lng": "48.501512"},
+      {"lat": "22.510470","lng": "53.951726"},
+      {"lat": "23.986052","lng": "38.247564"},
+      {"lat": "18.223770","lng": "42.507505"},
+      {"lat": "27.514164","lng": "41.682321"},
+      {"lat": "24.506293","lng": "44.392661"},
+      {"lat": "24.468392","lng": "39.611268"},
+      {"lat": "21.422537","lng": "39.826218"},
+      {"lat": "29.291355","lng": "47.921233"},
+      {"lat": "32.221081","lng": "-110.922326"}
+    ]
+  }
+}
