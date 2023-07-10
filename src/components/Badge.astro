@@ -1,5 +1,6 @@
 ---
-import { Image, Picture } from '@astrojs/image/components';
+import { Image } from '@astrojs/image/components';
+
 import getIcon from '../utilities/getIcon';
 export interface Props {
 	title: string;
@@ -8,11 +9,11 @@ export interface Props {
 }
 
 const { title, url, faviconUrl } = Astro.props;
+const myLink = faviconUrl ? faviconUrl : url;
 
-const imagePath = await getIcon(faviconUrl || url);
+let imagePath = await getIcon(myLink);
+imagePath = imagePath?.replaceAll('\\','/').replaceAll('public', '');
 console.log(imagePath);
-//return;
-
 ---
 <a href={url} class="mr-1">
   <span class="
@@ -22,6 +23,7 @@ console.log(imagePath);
     dark:text-gray-300
     hover:bg-gray-200
     hover:text-gray-900
+    hover:scale-110 transition-all
     text-sm 
     font-medium 
     inline-flex 
@@ -31,7 +33,13 @@ console.log(imagePath);
     rounded
     group">
     <div class="inline-flex items-center">
-      <Image class="w-3.5 me-1 aspect-square filter grayscale group-hover:grayscale-0 group-hover:filter-none" width={64} aspectRatio="1:1" src={imagePath} alt={title} />
+      <Image 
+        class="w-3.5 me-1 aspect-square filter grayscale group-hover:grayscale-0 group-hover:filter-none" 
+        width={64} 
+        aspectRatio="1:1"
+        format='png'
+        src={imagePath} 
+        alt={title} />
     </div>
     {title}
   </span>

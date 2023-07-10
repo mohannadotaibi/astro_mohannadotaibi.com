@@ -8,20 +8,17 @@ export interface Props {
 const { title, url } = Astro.props;
 
 ---
+
+
 <a href={url} class="mr-2">
     <span class="
-      bg-yellow-600
-      text-gray-100 
-      dark:bg-yellow-200 
-      dark:text-gray-600
-      hover:bg-yellow-500
-        dark:hover:bg-yellow-300
+    bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800
       text-md 
       font-medium 
       inline-flex 
       items-center 
-      px-4 
-      py-0.5 
+      px-5 
+      py-1 
       rounded
       group">
       <div class="inline-flex items-center">

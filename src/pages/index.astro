@@ -1,9 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import Section from '../components/Section.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import Section from '../components/layout/Section.astro';
 import { linked_sections } from '../assets/data/db.json';
 
 ---
@@ -14,14 +14,14 @@ import { linked_sections } from '../assets/data/db.json';
 		
 			<Section content={linked_sections.applications} />
 			<Section content={linked_sections.languages} />
-			<Section content={linked_sections.accomplishments} />
+			<Section content={linked_sections.achievements} colSize={1} xlColSize={1} />
 			<Section content={linked_sections.standards} />
 			<Section content={linked_sections.organizations} />
 			
-			<Section content={linked_sections.bookmarks} />
+			<Section content={linked_sections.bookmarks} colSize={1} xlColSize={2} />
 			
 			
-			<Section content={linked_sections.games} />
+			<Section content={linked_sections.games} colSize={1} xlColSize={2} />
 			
 		
 		<p class="instructions leading-relaxed my-4 border border-accent border-opacity-25 bg-white dark:bg-slate-800 p-4 rounded-md">
