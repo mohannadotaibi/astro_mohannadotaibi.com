@@ -1,46 +1,126 @@
 ---
+import { SEO } from "astro-seo";
+import { Schema } from "astro-seo-schema"
+
+
 export interface Props {
 	title: string;
+	description: string;
 }
 
-const { title } = Astro.props;
+const { title, description } = Astro.props;
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description">
+		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+
 		<meta name="generator" content={Astro.generator} />
+		<link rel="sitemap" href="/sitemap-index.xml" />
+		<Schema
+            item={{
+                "@context": "https://schema.org",
+                "@type": "Person",
+                name: title,
+                alternateName: "مهند فيحان حمود العتيبي",
+                alumniOf: {
+                    "@type": "CollegeOrUniversity",
+                    name: ["King Fahd University of Pertuleom & Minerals", "Business Administration College"],
+                },
+                knowsAbout: [
+					"Compilers", 
+					"Computer Science", 
+					"Programming",
+					"Software Engineering",
+					"Web Development",
+					"Web Design",
+					"UI/UX Design",
+					"SEO",
+					"SEM",
+					"Marketing Automation",
+					"Analytics & Automation",
+					"Data Analysis & Reports",
+					"Data Science",
+					"Data Visualization",
+					"Machine Learning",
+					"Artificial Intelligence",
+					"Other Data Science",
+					"Digital Literacy",
+					"Digital Media",
+					"Growth Hacking",
+					"Entreprenuership",
+					"Business Strategy",
+					"Startup",
+					"Business Plan",
+					"Freelancing",
+					"Excellence",
+					"Leadership",
+					"Management Skills",
+					"Communication Skills",
+					"Presentation Skills",
+					"Negotiation Skills",
+					"Public Speaking",
+					"Personal Development",
+
+			],
+            }}
+        />
+		<SEO
+			title={title}
+			description={description}
+			openGraph={{
+				basic: {
+					title: title,
+					type: "A type.",
+					image: "https://mohannadotaibi.com/assets/images/mfo_picture.png",
+				},
+			}}
+			twitter={{
+				creator: "@bufai7an",
+			}}
+			extend={{
+				// extending the default link tags
+				link: [{ rel: "icon", href: "/favicon.ico" }],
+				// extending the default meta tags
+				meta: [
+					{
+						name: "twitter:image",
+						content: "https://mohannadotaibi.com/assets/images/mfo_picture.png",
+					},
+					{ name: "twitter:title", content: title },
+					{ name: "twitter:description", content: description },
+				],
+			}}
+		/>
+		
+		<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png" />
+		<link rel="manifest" href="assets/images/site.webmanifest" />
+
 		<title>{title}</title>
 	</head>
-	<body class="dark:bg-slate-900 dark:text-slate-200 min-h-screen py-8">
+	<body class="
+	dark:bg-slate-900 dark:text-slate-200 
+	min-h-screen 
+	">
+	<div class="bg-gradient-to-r from-blue-700 to-indigo-500  h-1 w-full mb-8"></div>
+	<div class="main py-8">
 		<slot />
-	</body>
+	</div>
+		
+	</body><style is:global>
+		code {
+			@apply font-normal;
+			@apply bg-indigo-700 bg-opacity-40 text-indigo-700 dark:text-indigo-100;
+			@apply rounded-sm;
+			@apply py-1 px-2;
+			font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace !important;
+			font-size: 0.7em !important;
+		}
+	</style>
 </html>
-<style is:global>
-	:root {
-		--accent: 124, 58, 237;
-		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
-	}
-	html {
-		font-family: system-ui, sans-serif;
-		background-color: #F6F6F6;
-	}
-	code {
-		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-	}
-
-	.instructions code {
-		@apply text-[0.875rem];
-		@apply font-bold;
-		@apply bg-opacity-10;
-		@apply bg-indigo-700;
-		@apply text-indigo-700;
-		@apply dark:text-indigo-100;
-		@apply rounded-md;
-		@apply px-2 py-1;
-	}
-</style>

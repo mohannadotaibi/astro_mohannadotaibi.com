@@ -1,0 +1,24 @@
+---
+import Link from './Link.astro';
+import Title from './Title.astro';
+
+export interface Props {
+	content: any;
+	xlColSize?: number;
+  	colSize?: number;
+}
+
+const { content, xlColSize = 4, colSize = 2 } = Astro.props;
+const { title, description, data } = content;
+
+console.log(content.title, xlColSize, colSize)
+---
+
+<section class="my-20">
+	<Title title={title} description={description} />
+	<div class={`grid grid-cols-${colSize} md:grid-cols-${xlColSize} gap-2 md:gap-4`}>
+		{data.map((item: any) => (
+			<Link {...item} />
+		))}
+	</div>
+</section>

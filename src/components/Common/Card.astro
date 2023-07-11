@@ -1,0 +1,29 @@
+---
+export interface Props {
+	title: string;
+	body: string;
+	href: string;
+}
+
+const { href, title, body } = Astro.props;
+---
+
+<li class="list-none flex p-1 bg-white group
+bg-none bg-size-400 rounded-md bg-right transition bg-shadow
+hover:bg-[0] 
+focus:bg-[0]
+hover:bg-gradient-to-br hover:from-cyan-500 hover:to-blue-500 
+focus:bg-gradient-to-br focus:from-cyan-500 focus:to-blue-500
+">
+	<a href={href} class="w-full no-underline leading-snug px-4 py-5 rounded-md text-slate-900 bg-white opacity-80">
+		<h2 class="m-0 text-lg transition-colors duration-700 ease-out 
+		group-hover:text-indigo-700
+		group-focus:text-indigo-700">
+			{title}
+			<span>&rarr;</span>
+		</h2>
+		<p class="pt-2 mb-0 text-slate-700">
+			{body}
+		</p>
+	</a>
+</li>

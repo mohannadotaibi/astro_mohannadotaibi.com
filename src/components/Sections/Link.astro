@@ -1,0 +1,39 @@
+---
+import { Image } from '@astrojs/image/components';
+import getIcon from '../../utilities/getIcon';
+
+export interface Props {
+	title: string;
+	url: string;
+  arabic?: boolean;
+}
+
+const { title, url, arabic=false } = Astro.props;
+
+let imagePath: any = await getIcon(url);
+
+imagePath = imagePath?.replaceAll('\\','/').replaceAll('public', '');
+
+const direction = arabic ? 'rtl' : 'ltr';
+
+---
+<a href={url} class="
+bg-slate-500 bg-opacity-10  
+hover:bg-purple-400 hover:bg-opacity-10
+  dark:bg-white dark:bg-opacity-5 dark:hover:bg-opacity-10 
+  rounded-md 
+  ps-1 py-1 pe-2 
+  hover:scale-110 transition-all 
+  group">
+  <div class="flex flex-row justify-start items-center">
+    <Image 
+    class="w-6 md:w-12 rounded-md me-4 aspect-square filter grayscale group-hover:grayscale-0 group-hover:filter-none" 
+    width={64} 
+    aspectRatio="1:1" 
+    format='png'
+    src={imagePath} 
+    alt={title} 
+    />
+    <h3 dir={direction} class="font-normal text text-slate-700 dark:text-slate-300">{title}</h3>
+  </div>
+</a>

@@ -1,7 +1,7 @@
 {
   "general":{
     "title" : "Mohannad Faihan (Dalbahi) Otaibi",
-    "description" : "",
+    "description" : "Techno-maniac, love change, Founder of @6degz, @Hardlayers and CTO of @promoefficiency, @efficiencys, @deets_sa, @burooj, @zahmoaola",
     "keywords" : "",
     "slogan" : "",
     "biography" : "Techno-maniac, love change, Founder of @Hardlayers and @6degz, CTO of @promoefficiency, @efficiencys, @deets_sa, @burooj, ",
@@ -38,6 +38,7 @@
       }
     }
   },
+
   "linked_sections":{
     "applications":{
       "title":"💻 Software Arsenal",
@@ -86,6 +87,7 @@
         { "title": "BitWarden", "url": "https://bitwarden.com/"} 
       ]
     },
+
     "bookmarks": {
       "title":"🔗 Bookmarks",
       "description":"of Websites I enjoy browsing, or need, most of the time",
@@ -156,6 +158,7 @@
         {"title": "Toot Studio","url": "https://toot.com.sa/en/"}
       ]
     },
+
     "achievements":{
       "title":"🏆 Achievements",
       "description":"pieces of work done that I'm proud of",
@@ -185,17 +188,16 @@
         {"title": "Laravel","url": "https://laravel.com/"},
         {"title": "WordPress Plugins","url": "https://developer.wordpress.org/plugins/"},
   
-  
         {"title": "ASP.NET","url": "https://dotnet.microsoft.com/en-us/apps/aspnet/"},
         {"title": "C#","url": "https://docs.microsoft.com/en-us/dotnet/csharp/"},
         {"title": "VBA","url": "https://docs.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office"},
         {"title": "VB.net","url": "https://docs.microsoft.com/en-us/dotnet/visual-basic/"},
   
-        
         {"title": "Javascript","url": "https://www.w3schools.com/js/DEFAULT.asp"},
         {"title": "NodeJs","url": "https://nodejs.org/en/"},
         {"title": "Express.js","url": "https://expressjs.com/"},
         
+        {"title": "Astro","url": "https://astro.build/"},   
         {"title": "NuxtJS","url": "https://nuxtjs.org/"},
         {"title": "AdonisJS","url": "https://adonisjs.com/"},
         {"title": "Strapi","url": "https://strapi.io/"},
@@ -211,7 +213,6 @@
         {"title": "Python","url": "https://www.python.org/"},
         {"title": "Perl","url": "https://www.perl.org/"},
         
-  
         {"title": "bash","url": "https://www.gnu.org/software/bash/"},
         {"title": "Batch","url": "https://www.tutorialspoint.com/batch_script/index.htm"},
         {"title": "PowerShell","url": "https://www.tutorialspoint.com/powershell/powershell_scripting.htm"},
@@ -224,6 +225,7 @@
         
       ]
     },
+    
     "standards":{
       "title":"📜 Standards",
       "description":"I try to go by and use",
@@ -258,23 +260,18 @@
     }
   },
   
-  
   "quotes": {
     "title": "💡 Quotes",
     "description": "I try to Live by and respect",
     "data": [
-      {"quote": "You cannot arrest an idea, it is bulletproof.","author": "Anonymous"},
-      {"quote": "The Quiter you become, the more you are able to hear","author": "Quoted by BackTrack OS, By Rumi"},
-      {"quote": "We only see two things in people; what we want to see, and what they want to show us.","author": "James Remer, as Harry Morgan"},
-      {"quote": "It is not the strongest species that survive, nor the most intelligent, but the ones responsive to change.","author": "Charles Darwin"}
+      {"text": "You cannot arrest an idea, it is bulletproof.","author": "Anonymous", "source":"Unknown"},
+      {"text": "The Quiter you become, the more you are able to hear","author": "Rumi","source":"BackTrack OS"},
+      {"text": "We only see two things in people; what we want to see, and what they want to show us.","author": "James Remer","source":"as Harry Morgan"},
+      {"text": "It is not the strongest species that survive, nor the most intelligent, but the ones responsive to change.","author": "Charles Darwin","source":""}
     ]
   },
   
-
-  
-
   "Comment": "// Open Source I Like",
-
 
   "playlist":{
     "title": "YouTube",
@@ -282,7 +279,6 @@
     "data": {
     }
   },
-  
   
   "locations": {
     "title": "🌎 Places",

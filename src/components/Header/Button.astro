@@ -1,0 +1,30 @@
+---
+export interface Props {
+	title: string;
+	url: string;
+  faviconUrl?: string;
+}
+
+const { title, url } = Astro.props;
+
+---
+
+<a href={url} class="mr-2">
+    <span class="
+      bg-gradient-to-br from-purple-600 to-blue-500 
+      hover:bg-gradient-to-bl
+      focus:ring-4 focus:outline-none focus:ring-blue-300 
+    dark:focus:ring-blue-800
+      text-sm
+      lg:text-md font-regular
+      text-white
+      inline-flex 
+      items-center
+      mt-4 lg:mt-0
+      px-3 py-1
+      lg:px-5 lg:py-1 
+      rounded
+      group">
+      {title}
+    </span>
+</a>

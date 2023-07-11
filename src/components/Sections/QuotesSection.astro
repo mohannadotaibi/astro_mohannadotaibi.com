@@ -1,0 +1,20 @@
+---
+import Quote from '../Quote.astro';
+import Title from './Title.astro';
+export interface Props {
+	content: any;
+	xlColSize?: number;
+  	colSize?: number;
+}
+const { content, xlColSize=1, colSize=1 } = Astro.props;
+console.log(content.title, xlColSize, colSize)
+---
+
+<section class="my-20">
+	<Title title={content.title} description={content.description} />
+
+	<div class=`grid grid-cols-${colSize} md:grid-cols-${xlColSize} gap-2 md:gap-4`>
+		{content.data.map((item: any) => (
+			<Quote text={item.text} author={item.author} source={item.source} />
+		))}
+</section>

@@ -1,0 +1,26 @@
+---
+export interface Props {
+	title: string;
+	description: string;
+}
+
+const { title, description } = Astro.props;
+
+
+---
+<div class="section-title">
+    <h2 class="
+    font-extrabold text-2xl lg:text-3xl 
+    inline 
+    me-0
+    ">{title}
+    <br class="inline lg:hidden" />
+    <small class="
+    lg:ms-2 
+    font-semibold 
+    text-gray-500 
+    dark:text-gray-400
+    leading-none
+    ">{description}</small></h2>
+    <hr class="h-px my-4 bg-indigo-200 border-0 dark:bg-indigo-400" />
+</div>

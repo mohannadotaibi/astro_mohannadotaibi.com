@@ -1,0 +1,25 @@
+---
+import Tag from './Tag.astro';
+import CvButton from './Button.astro';
+import { general } from '../../assets/data/db.json';
+export interface Props {
+	tags: any;
+}
+
+const { tags } = Astro.props;
+---
+
+<div class="badges text-center lg:text-start">
+    <div class="general">
+        { tags.general.map((link: any) => (
+            <Tag url={link.url} title={link.title} />
+        )) }
+    </div>
+
+    <div class="technical">
+        { tags.technical.map((link: any) => (
+            <Tag url={link.url} title={link.title} />
+        )) }
+    </div>
+    <CvButton url={general.cv} title="Download CV" />
+</div>

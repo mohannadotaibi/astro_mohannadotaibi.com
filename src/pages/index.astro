@@ -1,55 +1,30 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-import Header from '../components/layout/Header.astro';
-import Footer from '../components/layout/Footer.astro';
-import Section from '../components/layout/Section.astro';
-import { linked_sections } from '../assets/data/db.json';
+import Card from '../components/Common/Card.astro';
+import Header from '../components/Header/Header.astro';
+import Footer from '../components/Footer/Footer.astro';
+import Section from '../components/Sections/GeneralSection.astro';
+import { general, linked_sections, quotes, locations } from '../assets/data/db.json';
+import QuotesSection from '../components/Sections/QuotesSection.astro';
+import MapSection from '../components/Sections/MapSection.astro';
+
 
 ---
 
-<Layout title="Mohannad Faihan (Dalbahi) Otaibi">
+<Layout title={general.title} description={general.description + general.bio}>
 	<main class="m-auto px-6 max-w-5xl">
-		<Header />
+		<Header />	
+		<Section content={linked_sections.applications} />
+		<Section content={linked_sections.languages} />
+		<Section content={linked_sections.achievements} colSize={1} xlColSize={1} />
+		<Section content={linked_sections.standards} />
+		<Section content={linked_sections.organizations} />
+		<Section content={linked_sections.bookmarks} colSize={1} xlColSize={2} />
+		<Section content={linked_sections.games} colSize={1} xlColSize={2} />
 		
-			<Section content={linked_sections.applications} />
-			<Section content={linked_sections.languages} />
-			<Section content={linked_sections.achievements} colSize={1} xlColSize={1} />
-			<Section content={linked_sections.standards} />
-			<Section content={linked_sections.organizations} />
+		<QuotesSection content={quotes} />
+		<MapSection content={locations} />
 			
-			<Section content={linked_sections.bookmarks} colSize={1} xlColSize={2} />
-			
-			
-			<Section content={linked_sections.games} colSize={1} xlColSize={2} />
-			
-		
-		<p class="instructions leading-relaxed my-4 border border-accent border-opacity-25 bg-white dark:bg-slate-800 p-4 rounded-md">
-			To get started, open the directory <code class="">src/pages</code> in your project.<br />
-			<strong class="text-indigo-700 dark:text-indigo-300">Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid grid gap-4 grid-cols-1 md:grid-cols-2 p-0 ">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
 		<Footer />
 	</main>
 </Layout>

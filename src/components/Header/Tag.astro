@@ -1,7 +1,7 @@
 ---
 import { Image } from '@astrojs/image/components';
 
-import getIcon from '../utilities/getIcon';
+import getIcon from '../../utilities/getIcon';
 export interface Props {
 	title: string;
 	url: string;
@@ -13,9 +13,8 @@ const myLink = faviconUrl ? faviconUrl : url;
 
 let imagePath = await getIcon(myLink);
 imagePath = imagePath?.replaceAll('\\','/').replaceAll('public', '');
-console.log(imagePath);
 ---
-<a href={url} class="mr-1">
+<a href={url} class="me-2 mb-2 inline-block">
   <span class="
     bg-gray-100 
     text-gray-800 
@@ -24,20 +23,22 @@ console.log(imagePath);
     hover:bg-gray-200
     hover:text-gray-900
     hover:scale-110 transition-all
-    text-sm 
-    font-medium 
+    text-xs font-normal
+    lg:text-sm lg:font-medium 
+    
     inline-flex 
     items-center 
-    px-2.5 
-    py-0.5 
+    px-2.5 py-0.5
+    
     rounded
     group">
     <div class="inline-flex items-center">
       <Image 
         class="w-3.5 me-1 aspect-square filter grayscale group-hover:grayscale-0 group-hover:filter-none" 
         width={64} 
-        aspectRatio="1:1"
-        format='png'
+        height={64}
+        aspectRatio={1}
+        format={'png'}
         src={imagePath} 
         alt={title} />
     </div>

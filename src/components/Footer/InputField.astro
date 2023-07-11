@@ -1,0 +1,39 @@
+---
+export interface Props {
+    name: string;
+    type?: any;
+    label: string;
+    placeholder?: string;
+    required?: boolean;
+    disabled?: boolean;
+    readonly?: boolean;
+    autofocus?: boolean;
+
+}
+
+const { name, type = 'text', label, placeholder='', required = true, disabled = false, readonly = false, autofocus = false } = Astro.props;
+
+---
+<div>
+    <label for=`hs-${ name }-contact` class="block text-sm text-gray-700 font-medium dark:text-white mb-1">{ label }</label>
+    <input 
+        type={ type }
+        name=`hs-${ name }-contact`
+        id=`hs-${ name }-contact` 
+        class="
+            py-3 px-4 
+            block 
+            w-full 
+            border-gray-200
+            
+            rounded-md 
+            text-sm
+            focus:border focus:border-blue-500 focus:ring-blue-500
+            dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:border" 
+        placeholder={ placeholder }
+        required={ required }
+        disabled={ disabled }
+        readonly={ readonly }
+        autofocus={ autofocus }
+    />
+</div>
