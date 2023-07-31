@@ -29,11 +29,12 @@
           {"title": "Foursquare", "url":"https://foursquare.com/bufai7an"}
         ],
         "technical" :[
-          {"title": "GitHub", "descrption:": "", "url": "https://github.com/Mo9a7i"},
-          {"title": "StackOverflow", "descrption:": "", "url": "https://stackoverflow.com/users/5588602/mohannad-otaibi"},
-          {"title": "Traidnt.net", "descrption:": "", "url": "http://web.archive.org/web/20160213150705/http://www.traidnt.net/vb/u53424/"},
-          {"title": "ADSLGATE", "descrption:": "", "url": "https://www.adslgate.com/dsl/member.php?u=299526"},
-          {"title": "Swalif.net", "descrption:": "", "url": "https://www.swalif.net/softs/1317.html"}
+          {"title": "GitHub", "url": "https://github.com/Mo9a7i"},
+          {"title": "StackOverflow",  "url": "https://stackoverflow.com/users/5588602/mohannad-otaibi"},
+          {"title": "Traidnt.net", "url": "http://web.archive.org/web/20160213150705/http://www.traidnt.net/vb/u53424/"},
+          {"title": "ADSLGATE", "url": "https://www.adslgate.com/dsl/member.php?u=299526"},
+          {"title": "Swalif.net",  "url": "https://www.swalif.net/softs/1317.html"},
+          {"title":"NPMjs", "url": "https://www.npmjs.com/~mo9a7i"}
         ]
       }
     }
@@ -135,6 +136,19 @@
         {"title": "Process Management","url": "https://en.wikipedia.org/wiki/Process_management_(computing)/"}
       ]
     },
+
+    "operating_systems": {
+      "title":"💾 Operating Systems",
+      "description":"I've used and still use",
+      "data":[
+        {"title": "MacOS (latest)", "url": "https://www.apple.com/macos/"},
+        {"title": "Windows (95 to present)", "url": "https://www.microsoft.com/en-us/windows"},
+        {"title": "Kali Linux (BackTrack to present)", "url": "https://www.kali.org/"},
+        {"title": "Ubuntu", "url": "https://ubuntu.com/"},
+        {"title": "Parrot OS", "url": "https://parrotlinux.org/"},
+        {"title": "Centos", "url": "https://www.centos.org/"}
+      ]
+    },
   
     "organizations":{
       "title":"💼 Organizations",
@@ -170,7 +184,10 @@
         {"title": "NetLogger","url": "https://mo9a7i.com/2009/Netloggerexe-%D9%84%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D8%A7%D9%84%D8%B5%D9%88%D8%B1"},
         {"title": "FTPer","description": "Small bash script '/usr/local/bin' to automate sending files to a remote ftp through command line","url": "https://gist.github.com/mo9a7i/1ad6f6485ee7a490da8db615ff527e4f"},
         {"title": "Path App API Wrapper","url": "https://github.com/mo9a7i/CI_Path_API"},
-        {"title": "لماذا لايعمل الدومين الخاص بي مباشرة بعد حجزه؟","url": "http://web.archive.org/web/20150517010722/http://www.traidnt.net/vb/traidnt1027285-2/","arabic": true}
+        {"title": "لماذا لايعمل الدومين الخاص بي مباشرة بعد حجزه؟","url": "http://web.archive.org/web/20150517010722/http://www.traidnt.net/vb/traidnt1027285-2/","arabic": true},
+        {"title": "arabicStrings (NPM)","url": "https://www.npmjs.com/package/@6degrees/arabic-strings"},
+        {"title": "Source Code Spitter (NPM)","url": "https://www.npmjs.com/package/@6degrees/source-code-spitter"},
+        {"title": "Swarmapp API Wrapper (NPM)","url": "https://www.npmjs.com/package/swarmapp-api"}
       ]
     },
   
@@ -202,6 +219,7 @@
         {"title": "AdonisJS","url": "https://adonisjs.com/"},
         {"title": "Strapi","url": "https://strapi.io/"},
         {"title": "Vue.js","url": "https://vuejs.org/"},
+        {"title": "ElectronJs", "url": "https://www.electronjs.org/"},
         {"title": "jQuery","url": "https://jquery.com/"},
   
         {"title": "HTML","url": "https://www.w3schools.com/html/"},
