@@ -14,7 +14,8 @@ import { Icon } from 'astro-icon'
         <a class="hover:text-slate-400 pe-4 pb-8" title="Mohannad Whatsapp" href=`https://wa.me/${general.phone}`><Icon class="inline-block h-8" name="ri:whatsapp-fill" /></a>
         <a class="hover:text-slate-400 pe-4 pb-8" title="Mohannad Email" href=`mailto:${general.email}`><Icon class="inline-block h-8" name="ic:baseline-email" /></a>
     </div>
-    <h1 class="text-sm font-bold mb-2">Copyright © 2023 - Mohannad Faihan <span class="bg-gradient-to-r from-cyan-300 to-blue-700 text-transparent bg-clip-text">(Dalbahi)</span> Otaibi</h1>
+    <p class="text-sm font-bold mb-2">Copyright © 2023 - {general.title}</p>
+    <p class="dark:text-slate-400 text-slate-600 text-sm mb-2">{general.description}</p>
     <p class="dark:text-slate-400 text-slate-600 text-sm mb-2">{general.hashtags}</p>
     <p class="text-sm dark:text-slate-400 text-slate-600">
         Powered By <a title="Github Pages" class="font-bold" href="https://pages.github.com/">GitHub</a> and <a title="Astro Build" class="font-bold" href="https://astro.build">Astro</a></p>

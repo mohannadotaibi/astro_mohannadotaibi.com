@@ -14,11 +14,11 @@ import Tags from './Tags.astro';
 	dark:before:bg-[url('/assets/images/polygon-dark.svg')]
     ">
 
-    <div class="flex flex-col items-center justify-center text-center md:justify-start md:text-start md:align-bottom mb-10 md:flex-row">
+    <div class="flex flex-col items-start justify-center text-center md:justify-start md:text-start md:align-bottom mb-10 md:flex-row">
         <Image class="rounded w-24 h-24 me-3" src={mfo_picture} alt="Mohannad Otaibi Picture" format="webp" />
         <div class="title">
-            <h1 class="text-4xl md:text-5xl font-extrabold m-0 mb-2">Mohannad Faihan <span class="bg-gradient-to-tl from-cyan-300 to-blue-700 text-transparent bg-clip-text">(Dalbahi)</span> Otaibi</h1>
-            <p class="text-slate-500 dark:text-slate-400">{general.bio}</p>
+            <h1 class="text-4xl md:text-5xl font-extrabold m-0 mb-2">{general.title}</h1>
+            <p class="text-slate-500 dark:text-slate-400">{general.description}</p>
             <p class="text-slate-500 dark:text-slate-400">{general.hashtags}</p>
         </div>
     </div>
