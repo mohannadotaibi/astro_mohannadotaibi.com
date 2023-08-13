@@ -4,12 +4,11 @@ import image from "@astrojs/image";
 import robotsTxt from "astro-robots-txt";
 import sitemap from "@astrojs/sitemap";
 
-import compress from "astro-compress";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://mohannadotaibi.com",
   integrations: [tailwind(), image({
     serviceEntryPoint: "@astrojs/image/sharp"
-  }), robotsTxt(), sitemap(), compress()]
+  }), robotsTxt(), sitemap()]
 });
