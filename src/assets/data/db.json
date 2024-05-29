@@ -41,6 +41,8 @@
       "title":"💻 Software Arsenal",
       "description":"Apps and Programs I depend on in my setups to finish work",
       "data": [
+        { "title": "WinUtil", "url": "https://github.com/ChrisTitusTech/winutil"},
+        {"title":"DevToys","url":"https://devtoys.app/"},
         { "title": "SAP S4HANA", "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE"},
         { "title": "SAP Ariba", "url": "https://www.sap.com/mena/products/spend-management/ariba-login.html"},
         { "title": "VS Code", "url": "https://code.visualstudio.com/"},
