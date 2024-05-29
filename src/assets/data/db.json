@@ -41,6 +41,7 @@
       "title":"💻 Software Arsenal",
       "description":"Apps and Programs I depend on in my setups to finish work",
       "data": [
+        { "title": "TechPowerUp GPU-Z", "url": "https://www.techpowerup.com/download/techpowerup-gpu-z/"}
         { "title": "WinUtil", "url": "https://github.com/ChrisTitusTech/winutil"},
         {"title":"DevToys","url":"https://devtoys.app/"},
         { "title": "SAP S4HANA", "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE"},
