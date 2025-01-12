@@ -1,20 +1,24 @@
 ---
 import Quote from '../Quote.astro';
 import Title from './Title.astro';
+
 export interface Props {
 	content: any;
 	xlColSize?: number;
   	colSize?: number;
 }
-const { content, xlColSize=1, colSize=1 } = Astro.props;
-console.log(content.title, xlColSize, colSize)
+
+const { content, xlColSize=2, colSize=1 } = Astro.props;
 ---
 
-<section class="my-20">
+<section class="my-12">
 	<Title title={content.title} description={content.description} />
 
-	<div class=`grid grid-cols-${colSize} md:grid-cols-${xlColSize} gap-2 md:gap-4`>
-		{content.data.map((item: any) => (
-			<Quote text={item.text} author={item.author} source={item.source} />
-		))}
+	<div class="container mx-auto px-4">
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+			{content.data.map((item: any) => (
+				<Quote text={item.text} author={item.author} source={item.source} />
+			))}
+		</div>
+	</div>
 </section>

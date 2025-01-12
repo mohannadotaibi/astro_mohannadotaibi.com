@@ -1,7 +1,7 @@
 ---
 import Tag from './Tag.astro';
 import CvButton from './Button.astro';
-import { general } from '../../assets/data/db.json';
+import general from '../../assets/data/general.json';
 export interface Props {
 	tags: any;
 }
@@ -9,14 +9,14 @@ export interface Props {
 const { tags } = Astro.props;
 ---
 
-<div class="badges text-center lg:text-start">
-    <div class="general">
+<div class="badges flex flex-col items-center justify-center">
+    <div class="general flex flex-wrap justify-center">
         { tags.general.map((link: any) => (
             <Tag url={link.url} title={link.title} />
         )) }
     </div>
 
-    <div class="technical">
+    <div class="technical flex flex-wrap justify-center">
         { tags.technical.map((link: any) => (
             <Tag url={link.url} title={link.title} />
         )) }

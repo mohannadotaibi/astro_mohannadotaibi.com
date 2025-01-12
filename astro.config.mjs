@@ -10,5 +10,10 @@ export default defineConfig({
   site: "https://mohannadotaibi.com",
   integrations: [tailwind(), image({
     serviceEntryPoint: "@astrojs/image/sharp"
-  }), robotsTxt(), sitemap()]
+  }), robotsTxt(), sitemap()],
+  vite: {
+    optimizeDeps: {
+      exclude: ['leaflet']
+    }
+  }
 });

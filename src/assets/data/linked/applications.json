@@ -1,0 +1,218 @@
+{
+    "title": "💻 PC Softwares",
+    "description": "My basic setups for each PC",
+    "data": [
+      {
+        "title": "TechPowerUp GPU-Z",
+        "url": "https://www.techpowerup.com/download/techpowerup-gpu-z/"
+      },
+      {
+        "title": "WinUtil",
+        "url": "https://github.com/ChrisTitusTech/winutil"
+      },
+      {
+        "title": "DevToys",
+        "url": "https://devtoys.app/"
+      },
+      {
+        "title": "SAP S4HANA",
+        "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE"
+      },
+      {
+        "title": "SAP Ariba",
+        "url": "https://www.sap.com/mena/products/spend-management/ariba-login.html"
+      },
+      {
+        "title": "VS Code",
+        "url": "https://code.visualstudio.com/"
+      },
+      {
+        "title": "Insomnia",
+        "url": "https://insomnia.rest/"
+      },
+      {
+        "title": "Termius",
+        "url": "https://termius.com/"
+      },
+      {
+        "title": "GitHub Desktop",
+        "url": "https://desktop.github.com/"
+      },
+      {
+        "title": "Docker Desktop",
+        "url": "https://www.docker.com/products/docker-desktop/"
+      },
+      {
+        "title": "WinSCP",
+        "url": "https://winscp.net/eng/download.php"
+      },
+      {
+        "title": "MySQL Workbench",
+        "url": "https://www.mysql.com/products/workbench/"
+      },
+      {
+        "title": "Chocolatey",
+        "url": "https://chocolatey.org/"
+      },
+      {
+        "title": "Homebrew",
+        "url": "https://brew.sh/"
+      },
+      {
+        "title": "Winget",
+        "url": "https://learn.microsoft.com/en-us/windows/package-manager/winget/"
+      },
+      {
+        "title": "Figma",
+        "url": "https://www.figma.com/"
+      },
+      {
+        "title": "VMWare Workstation",
+        "url": "https://www.vmware.com/products/workstation-pro.html"
+      },
+      {
+        "title": "VMWare ESXi",
+        "url": "https://www.vmware.com/products/esxi-and-esx.html"
+      },
+      {
+        "title": "VM VirtualBox",
+        "url": "https://www.virtualbox.org/"
+      },
+      {
+        "title": "Fiddler",
+        "url": "https://www.telerik.com/fiddler/"
+      },
+      {
+        "title": "K-Lite",
+        "url": "https://codecguide.com/download_kl.htm"
+      },
+      {
+        "title": "Streamlabs OBS",
+        "url": "https://streamlabs.com/"
+      },
+      {
+        "title": "SteelSeries GG",
+        "url": "https://steelseries.com/gg/"
+      },
+      {
+        "title": "Discord",
+        "url": "https://discord.com/"
+      },
+      {
+        "title": "Steam",
+        "url": "https://store.steampowered.com/"
+      },
+      {
+        "title": "Stremio",
+        "url": "https://www.stremio.com/"
+      },
+      {
+        "title": "WinDirStat",
+        "url": "https://windirstat.net/"
+      },
+      {
+        "title": "Advanced IP Scanner",
+        "url": "https://www.advanced-ip-scanner.com/"
+      },
+      {
+        "title": "Recuva",
+        "url": "https://www.ccleaner.com/recuva"
+      },
+      {
+        "title": "Revo Uninstaller",
+        "url": "https://www.revouninstaller.com/"
+      },
+      {
+        "title": "Chrome",
+        "url": "https://www.google.com/chrome/"
+      },
+      {
+        "title": "FireFox",
+        "url": "https://www.mozilla.org/en-US/firefox/new/"
+      },
+      {
+        "title": "Brave Browser",
+        "url": "https://brave.com/"
+      },
+      {
+        "title": "MS Office",
+        "url": "https://www.microsoft.com/en-us/microsoft-365/get-started-with-office-2019"
+      },
+      {
+        "title": "Adobe Suite",
+        "url": "https://www.adobe.com/creativecloud.html"
+      },
+      {
+        "title": "Free Download Manager",
+        "url": "https://www.freedownloadmanager.org/"
+      },
+      {
+        "title": "7-zip",
+        "url": "https://www.7-zip.org/"
+      },
+      {
+        "title": "CCleaner",
+        "url": "https://www.ccleaner.com/"
+      },
+      {
+        "title": "Grammarly",
+        "url": "https://developer.grammarly.com/"
+      },
+      {
+        "title": "Google Drive",
+        "url": "https://www.google.com/drive/download/"
+      },
+      {
+        "title": "Warp",
+        "url": "https://1.1.1.1/"
+      },
+      {
+        "title": "PowerToys",
+        "url": "https://www.cgsecurity.org/wiki/TestDisk"
+      },
+      {
+        "title": "TestDisk",
+        "url": "https://github.com/microsoft/PowerToys/"
+      },
+      {
+        "title": "BitWarden",
+        "url": "https://bitwarden.com/"
+      },
+      {
+        "title": "Cursor AI",
+        "url": "https://www.cursor.com/"
+      },
+      {
+        "title": "HeidiSQL",
+        "url": "https://www.heidisql.com/"
+      },
+      {
+        "title": "Hoppscotch",
+        "url": "https://hoppscotch.io/"
+      },
+      {
+        "title": "Linear",
+        "url": "https://linear.app/"
+      },
+      {
+        "title": "Screaming Frog SEO Spider",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/"
+      },
+      {
+        "title": "Rapid Environment Editor",
+        "url": "https://www.rapidee.com/"
+      },
+      {
+        "title": "Ente Auth",
+        "url": "https://ente.io/auth/"
+      },
+      {
+        "title": "Speccy",
+        "url": "https://www.ccleaner.com/speccy"
+      },
+      {
+        "title": "Slack",
+        "url": "https://slack.com/"
+      }
+    ]
+  }

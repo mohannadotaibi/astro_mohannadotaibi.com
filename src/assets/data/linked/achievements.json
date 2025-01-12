@@ -1,0 +1,58 @@
+{
+    "title": "🏆 Achievements",
+    "description": "pieces of work done that I'm proud of",
+    "data": [
+      {
+        "title": "أشياء لازم تتفاهم مع شركة البرمجة عليها بخصوص تطبيقك الجديد",
+        "url": "https://github.6degrees.com.sa/",
+        "arabic": true
+      },
+      {
+        "title": "تجربتي في غسل مذربورد MBP 13 i7 من آثار شاهي",
+        "url": "https://www.adslgate.com/dsl/showthread.php?t=1180584",
+        "arabic": true
+      },
+      {
+        "title": "vBulletinner.sh",
+        "url": "https://www.swalif.net/softs/swalif68/softs248354/"
+      },
+      {
+        "title": "vBulletinner.sh +",
+        "url": "http://web.archive.org/web/20160213150705/http://www.traidnt.net/vb/traidnt1298111/"
+      },
+      {
+        "title": "NetLogger",
+        "url": "https://mo9a7i.com/2009/Netloggerexe-%D9%84%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D8%A7%D9%84%D8%B5%D9%88%D8%B1"
+      },
+      {
+        "title": "FTPer",
+        "description": "Small bash script '/usr/local/bin' to automate sending files to a remote ftp through command line",
+        "url": "https://gist.github.com/mo9a7i/1ad6f6485ee7a490da8db615ff527e4f"
+      },
+      {
+        "title": "Path App API Wrapper",
+        "url": "https://github.com/mo9a7i/CI_Path_API"
+      },
+      {
+        "title": "لماذا لايعمل الدومين الخاص بي مباشرة بعد حجزه؟",
+        "url": "http://web.archive.org/web/20150517010722/http://www.traidnt.net/vb/traidnt1027285-2/",
+        "arabic": true
+      },
+      {
+        "title": "arabicStrings (NPM)",
+        "url": "https://www.npmjs.com/package/@6degrees/arabic-strings"
+      },
+      {
+        "title": "Source Code Spitter (NPM)",
+        "url": "https://www.npmjs.com/package/@6degrees/source-code-spitter"
+      },
+      {
+        "title": "Swarmapp API Wrapper (NPM)",
+        "url": "https://www.npmjs.com/package/swarmapp-api"
+      },
+      {
+        "title": "أداة كتابة بالعربي بالمقلوب للألعاب والفوتوشوب والبرامج اللي ماتدعم عربي",
+        "url": "https://arabic-keyboard.mo9a7i.com"
+      }
+    ]
+  }

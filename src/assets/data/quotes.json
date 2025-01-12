@@ -1,0 +1,26 @@
+{
+    "title": "💡 Quotes",
+    "description": "I try to Live by and respect",
+    "data": [
+      {
+        "text": "You cannot arrest an idea, it is bulletproof.",
+        "author": "Anonymous",
+        "source": "Unknown"
+      },
+      {
+        "text": "The Quiter you become, the more you are able to hear",
+        "author": "Rumi",
+        "source": "BackTrack OS"
+      },
+      {
+        "text": "We only see two things in people; what we want to see, and what they want to show us.",
+        "author": "James Remer",
+        "source": "as Harry Morgan"
+      },
+      {
+        "text": "It is not the strongest species that survive, nor the most intelligent, but the ones responsive to change.",
+        "author": "Charles Darwin",
+        "source": ""
+      }
+    ]
+  }

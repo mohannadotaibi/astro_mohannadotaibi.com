@@ -1,0 +1,146 @@
+{
+    "title": "📚 Dev Skillz",
+    "description": "Porgramming languages, Frameworks and Development tools that I am comfortable using",
+    "data": [
+      {
+        "title": "JAVA",
+        "url": "https://www.java.com/en/download/"
+      },
+      {
+        "title": "Dart",
+        "url": "https://dart.dev/"
+      },
+      {
+        "title": "Flutter",
+        "url": "https://flutter.dev/"
+      },
+      {
+        "title": "PHP",
+        "url": "https://www.php.net/"
+      },
+      {
+        "title": "CodeIgniter",
+        "url": "https://codeigniter.com/"
+      },
+      {
+        "title": "Laravel",
+        "url": "https://laravel.com/"
+      },
+      {
+        "title": "WordPress Plugins",
+        "url": "https://developer.wordpress.org/plugins/"
+      },
+      {
+        "title": "ASP.NET",
+        "url": "https://dotnet.microsoft.com/en-us/apps/aspnet/"
+      },
+      {
+        "title": "C#",
+        "url": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+      },
+      {
+        "title": "VBA",
+        "url": "https://docs.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office"
+      },
+      {
+        "title": "VB.net",
+        "url": "https://docs.microsoft.com/en-us/dotnet/visual-basic/"
+      },
+      {
+        "title": "Javascript",
+        "url": "https://www.w3schools.com/js/DEFAULT.asp"
+      },
+      {
+        "title": "NodeJs",
+        "url": "https://nodejs.org/en/"
+      },
+      {
+        "title": "Express.js",
+        "url": "https://expressjs.com/"
+      },
+      {
+        "title": "Astro",
+        "url": "https://astro.build/"
+      },
+      {
+        "title": "NuxtJS",
+        "url": "https://nuxtjs.org/"
+      },
+      {
+        "title": "AdonisJS",
+        "url": "https://adonisjs.com/"
+      },
+      {
+        "title": "Strapi",
+        "url": "https://strapi.io/"
+      },
+      {
+        "title": "Vue.js",
+        "url": "https://vuejs.org/"
+      },
+      {
+        "title": "ElectronJs",
+        "url": "https://www.electronjs.org/"
+      },
+      {
+        "title": "jQuery",
+        "url": "https://jquery.com/"
+      },
+      {
+        "title": "HTML",
+        "url": "https://www.w3schools.com/html/"
+      },
+      {
+        "title": "SASS/SCSS",
+        "url": "https://sass-lang.com/"
+      },
+      {
+        "title": "Bootstrap",
+        "url": "https://getbootstrap.com/"
+      },
+      {
+        "title": "Tailwind",
+        "url": "https://tailwindcss.com/resources/"
+      },
+      {
+        "title": "Jekyll",
+        "url": "https://jekyllrb.com/"
+      },
+      {
+        "title": "Python",
+        "url": "https://www.python.org/"
+      },
+      {
+        "title": "Perl",
+        "url": "https://www.perl.org/"
+      },
+      {
+        "title": "bash",
+        "url": "https://www.gnu.org/software/bash/"
+      },
+      {
+        "title": "Batch",
+        "url": "https://www.tutorialspoint.com/batch_script/index.htm"
+      },
+      {
+        "title": "PowerShell",
+        "url": "https://www.tutorialspoint.com/powershell/powershell_scripting.htm"
+      },
+      {
+        "title": "SQL (my/MS)",
+        "url": "https://www.w3schools.com/sql/"
+      },
+      {
+        "title": "Firebase",
+        "url": "https://firebase.google.com/"
+      },
+      {
+        "title": "Docker",
+        "url": "https://www.docker.com/"
+      },
+      {
+        "title": "Markdown",
+        "url": "https://www.markdownguide.org/"
+      }
+    ]
+  }

@@ -1,0 +1,42 @@
+{
+    "title": "📜 Standards",
+    "description": "I try to go by and use",
+    "data": [
+      {
+        "title": "Serverless",
+        "url": "https://serverless.css-tricks.com/services/"
+      },
+      {
+        "title": "DRY",
+        "url": "https://en.wikipedia.org/wiki/Don't_repeat_yourself"
+      },
+      {
+        "title": "10 Laws to Design By",
+        "url": "https://3.7designs.co/blog/2010/07/ten-laws-to-design-by/"
+      },
+      {
+        "title": "PSR-2",
+        "url": "https://www.php-fig.org/psr/psr-2/"
+      },
+      {
+        "title": "PHP The Right Way",
+        "url": "https://phptherightway.com/"
+      },
+      {
+        "title": "PHP Best Practices",
+        "url": "https://phpbestpractices.org/"
+      },
+      {
+        "title": "Getting Things Done",
+        "url": "https://en.wikipedia.org/wiki/Getting_Things_Done"
+      },
+      {
+        "title": "Usability Testing Demystified",
+        "url": "https://alistapart.com/article/usability-testing-demystified/"
+      },
+      {
+        "title": "Article Publishing Guidelines",
+        "url": "https://web.archive.org/web/20120507051131/https://www.readability.com/publishers/guidelines/"
+      }
+    ]
+  }

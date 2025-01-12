@@ -1,10 +1,19 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Common/Card.astro';
 import Header from '../components/Header/Header.astro';
 import Footer from '../components/Footer/Footer.astro';
 import Section from '../components/Sections/GeneralSection.astro';
-import { general, linked_sections, quotes, locations } from '../assets/data/db.json';
+import operating_systems from '../assets/data/linked/operating_systems.json';
+import organizations from '../assets/data/linked/organizations.json';
+import languages from '../assets/data/linked/languages.json';
+import achievements from '../assets/data/linked/achievements.json';
+import bookmarks from '../assets/data/linked/bookmarks.json';
+import applications from '../assets/data/linked/applications.json';
+import standards from '../assets/data/linked/standards.json';
+import games from '../assets/data/linked/games.json';
+import general from '../assets/data/general.json';
+import quotes from '../assets/data/quotes.json';
+import locations from '../assets/data/locations.json';
 import QuotesSection from '../components/Sections/QuotesSection.astro';
 import MapSection from '../components/Sections/MapSection.astro';
 
@@ -12,20 +21,25 @@ import MapSection from '../components/Sections/MapSection.astro';
 ---
 
 <Layout title={general.title} description={general.description}>
-	<main class="m-auto px-6 max-w-5xl">
+	<main class="">
+		<div class="max-w-7xl mx-auto">
 		<Header />	
-		<Section content={linked_sections.applications} />
-		<Section content={linked_sections.operating_systems} />
-		<Section content={linked_sections.languages} />
-		<Section content={linked_sections.achievements} colSize={1} xlColSize={1} />
-		<Section content={linked_sections.standards} />
-		<Section content={linked_sections.organizations} />
-		<Section content={linked_sections.bookmarks} colSize={1} xlColSize={2} />
-		<Section content={linked_sections.games} colSize={1} xlColSize={2} />
-		
+		<Section content={applications} />
+		<Section content={operating_systems} colSize={1} xlColSize={2} />
+		<Section content={languages} />
+		<Section content={achievements} colSize={1} xlColSize={1} />
+		<Section content={standards} />
+		<Section content={organizations} />
+		<Section content={bookmarks} colSize={1} xlColSize={3} />
+		<Section content={games} colSize={1} xlColSize={2} />
 		<QuotesSection content={quotes} />
+		</div>
+		
+		
+		
 		<MapSection content={locations} />
-			
+		<div class="max-w-7xl mx-auto">
 		<Footer />
+		</div>
 	</main>
 </Layout>

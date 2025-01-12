@@ -1,0 +1,36 @@
+{
+    "title": "💾 Operating Systems",
+    "description": "I've used and still use",
+    "data": [
+      {
+        "title": "MacOS",
+        "url": "https://www.apple.com/macos/",
+        "description": "Latest"
+      },
+      {
+        "title": "Windows",
+        "url": "https://www.microsoft.com/en-us/windows",
+        "description": "3.2 up to latest"
+      },
+      {
+        "title": "Kali Linux",
+        "url": "https://www.kali.org/",
+        "description": "Since Backtrack"
+      },
+      {
+        "title": "ParrotOS",
+        "url": "https://www.parrotsec.org/",
+        "description": "No description"
+      },
+      {
+        "title": "Ubuntu",
+        "url": "https://ubuntu.com/",
+        "description": "10.04 LTS up to current version"
+      },
+      {
+        "title": "CentOS",
+        "url": "https://www.centos.org/",
+        "description": "5.7 up to current"
+      }
+    ]
+  }

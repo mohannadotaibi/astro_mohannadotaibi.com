@@ -10,11 +10,130 @@ const stringified = JSON.stringify(content.data);
 ---
 
 <section class="my-20">
-    <Title title={content.title} description={content.description} />
+    <div class="max-w-7xl mx-auto">
+        <Title title={content.title} description={content.description} />
+    </div>
+    
 
-    <div class='rounded-md overflow-hidden'>
-        <input type="hidden" data-message={stringified} />
-        <div id="map" class="w-full h-80"></div>
+    <div class='overflow-hidden'>
+        <input type="hidden" id="map-data" data-message={stringified} />
+        <div id="map" class="w-full h-[50vh]"></div>
     </div>
 </section>
-<script src="../../utilities/googleMaps.ts"></script>
+
+<!-- Add Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+
+<!-- Add Leaflet JavaScript -->
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+<script>
+    declare const L: any;
+    // Get the map data
+    const mapData = document.getElementById('map-data');
+    if (!mapData) throw new Error('Map data element not found');
+    const message = mapData.dataset.message;
+    if (!message) throw new Error('Map data message not found');
+    const locations = JSON.parse(message);
+
+    // Initialize the map
+    const map = L.map('map', {
+        zoomControl: false,
+        center: [25, 45],
+        zoom: 15,
+        minZoom: 2,
+        maxZoom: 18,
+        worldCopyJump: true,
+        fadeAnimation: true,
+        markerZoomAnimation: true,
+        inertia: true,
+        inertiaDeceleration: 3000,
+        scrollWheelZoom: false
+    }).setView([25, 45], 3);
+
+    // Add custom zoom control
+    L.control.zoom({
+        position: 'topleft',
+        
+    }).addTo(map);
+
+    
+
+    // Add Mapbox tiles with Swarm's style
+    L.tileLayer('https://api.mapbox.com/styles/v1/foursquare/ck7qbe9t20y6v1iqkyeolw8hk/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZm91cnNxdWFyZSIsImEiOiJjRGRqOVZZIn0.rMLhJeqI_4VnU2YdIJvD3Q', {
+        attribution: '© Mapbox © OpenStreetMap',
+        maxZoom: 18,
+        minZoom: 2,
+        opacity: 1,
+        detectRetina: true,
+        '2x': true
+    }).addTo(map);
+
+    // Custom marker icon (orange dot like Swarm)
+    const customIcon = L.divIcon({
+        className: 'custom-map-marker',
+        html: '<div></div>',
+        iconSize: new L.Point(8,8),
+        iconAnchor: new L.Point(4,4)
+    });
+
+    // Add markers for each location
+    locations.forEach((location: { venueId: string; latLng: { lat: number; lng: number } }) => {
+        const marker = L.marker([location.latLng.lat, location.latLng.lng], {
+            icon: customIcon
+        }).addTo(map);
+        
+        // Add click handler to open Foursquare venue page
+        if (!location.venueId.startsWith('no_venue_id')) {
+            marker.on('click', () => {
+                window.open(`https://foursquare.com/v/${location.venueId}`, '_blank');
+            });
+        }
+    });
+
+    // Fit bounds to show all markers
+    if (locations.length > 0) {
+        const bounds = L.latLngBounds(
+            locations.map(
+                (loc: { 
+                    latLng: { 
+                        lat: number; 
+                        lng: number 
+                    } 
+                }) => [loc.latLng.lat, loc.latLng.lng]));
+        map.fitBounds(bounds, { padding: [0, 0] });
+    }
+</script>
+
+<style is:inline>
+    .custom-map-marker {
+        background: transparent;
+    }
+    .custom-map-marker div {
+        width: 8px;
+        height: 8px;
+        background: #fc8c14 ;
+        border-radius: 50%;
+        opacity: 1;
+    }
+    
+    .leaflet-popup-content-wrapper {
+        border-radius: 4px;
+        padding: 8px 12px;
+        font-size: 14px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    
+    .leaflet-control-zoom a {
+        width: 24px !important;
+        height: 24px !important;
+        line-height: 24px !important;
+        font-size: 16px !important;
+    }
+
+
+</style>

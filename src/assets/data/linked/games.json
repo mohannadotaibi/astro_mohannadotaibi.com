@@ -1,0 +1,46 @@
+{
+    "title": "🎮 Games I Play",
+    "description": "when I have time",
+    "data": [
+      {
+        "title": "Second Life",
+        "url": "https://secondlife.com/"
+      },
+      {
+        "title": "Call of Duty® 4: Modern Warfare®",
+        "url": "https://store.steampowered.com/app/7940/Call_of_Duty_4_Modern_Warfare/"
+      },
+      {
+        "title": "Call of Duty®: Modern Warfare® 2",
+        "url": "https://store.steampowered.com/app/10180/Call_of_Duty_Modern_Warfare_2/"
+      },
+      {
+        "title": "Call of Duty: World at War",
+        "url": "https://store.steampowered.com/app/10090/Call_of_Duty_World_at_War/"
+      },
+      {
+        "title": "Call of Duty®: Black Ops",
+        "url": "https://store.steampowered.com/app/42700/Call_of_Duty_Black_Ops/"
+      },
+      {
+        "title": "Call of Duty®: Modern Warfare® 3",
+        "url": "https://store.steampowered.com/app/115300/Call_of_Duty_Modern_Warfare_3/"
+      },
+      {
+        "title": "Call of Duty®: Black Ops II",
+        "url": "https://store.steampowered.com/app/202970/Call_of_Duty_Black_Ops_II/"
+      },
+      {
+        "title": "Call of Duty®: Modern Warfare® Remastered",
+        "url": "https://www.callofduty.com/modern-warfare-remastered"
+      },
+      {
+        "title": "Call of Duty: Modern Warfare",
+        "url": "https://www.callofduty.com/modernwarfare"
+      },
+      {
+        "title": "FiveM GTA",
+        "url": "https://fivem.net/"
+      }
+    ]
+  }

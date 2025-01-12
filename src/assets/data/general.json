@@ -1,0 +1,87 @@
+{
+    "title": "Mohannad Faihan Otaibi",
+    "description": "A techno-maniac from Saudi Arabia. Passionate about coding, innovation, and technology, I'm the geek you want to connect with. Explore my site to learn about my ventures, skills, and the tools I love. Let's talk tech!",
+    "hashtags": "#Saudi, #Geek, #Coder, #Innovator",
+    "email": "mohannad.otaibi@gmail.com",
+    "phone": "966545582222",
+    "cv": "/assets/files/20240603 Mohannad Otaibi Resume.pdf",
+    "old_nicknames": [
+      "interboy",
+      "theinterboy",
+      "mfotaibi",
+      "dabdoobnet",
+      "انتربوي"
+    ],
+    "old_emails": [
+      "mfotaibi@flashmail.com",
+      "mfotaibi@hotmail.com",
+      "dabdoobnet@hotmail.com",
+      "theinterboy@yahoo.com",
+      "interboy@c4arab.com",
+      "montada@mo9a7i.com"
+    ],
+    "social_links": {
+      "title": "Social Media Accounts",
+      "description": "Find me on one or more of the following links",
+      "data": {
+        "general": [
+          {
+            "title": "Twitter",
+            "description:": "",
+            "url": "https://twitter.com/bufai7an",
+            "favicoDomain": "developer.twitter.com"
+          },
+          {
+            "title": "LinkedIn",
+            "description:": "",
+            "url": "https://www.linkedin.com/in/mohannadotaibi/"
+          },
+          {
+            "title": "Twitch",
+            "description:": "",
+            "url": "https://www.twitch.tv/bufai7an"
+          },
+          {
+            "title": "BuFai7an.Live",
+            "description:": "",
+            "url": "https://bufai7an.live/"
+          },
+          {
+            "title": "YouTube",
+            "description:": "",
+            "url": "https://www.youtube.com/user/mo9a7i"
+          },
+          {
+            "title": "Foursquare",
+            "url": "https://foursquare.com/bufai7an"
+          }
+        ],
+        "technical": [
+          {
+            "title": "GitHub",
+            "url": "https://github.com/Mo9a7i"
+          },
+          {
+            "title": "StackOverflow",
+            "url": "https://stackoverflow.com/users/5588602/mohannad-otaibi"
+          },
+          {
+            "title": "Traidnt.net",
+            "url": "http://web.archive.org/web/20160213150705/http://www.traidnt.net/vb/u53424/"
+          },
+          {
+            "title": "ADSLGATE",
+            "url": "https://www.adslgate.com/dsl/member.php?u=299526"
+          },
+          {
+            "title": "Swalif.net",
+            "url": "https://www.swalif.net/softs/1317.html"
+          },
+          {
+            "title": "NPMjs",
+            "url": "https://www.npmjs.com/~mo9a7i"
+          }
+        ]
+      }
+    }
+  }
