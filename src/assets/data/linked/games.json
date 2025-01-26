@@ -1,46 +1,169 @@
 {
-    "title": "🎮 Games I Play",
-    "description": "when I have time",
+    "title": "🎮 Games",
+    "description": "I play when I have time",
     "data": [
       {
+        "title": "Doom 95",
+        "url": "https://www.amazon.com/Ultimate-Doom-Windows-95/dp/B004UYREC4",
+        "poster_url": "https://m.media-amazon.com/images/I/51HENP1sj-L.jpg",
+        "vendor": "id Software",
+        "year": 1995,
+        "played": true
+      },
+      {
         "title": "Second Life",
-        "url": "https://secondlife.com/"
-      },
-      {
-        "title": "Call of Duty® 4: Modern Warfare®",
-        "url": "https://store.steampowered.com/app/7940/Call_of_Duty_4_Modern_Warfare/"
-      },
-      {
-        "title": "Call of Duty®: Modern Warfare® 2",
-        "url": "https://store.steampowered.com/app/10180/Call_of_Duty_Modern_Warfare_2/"
-      },
-      {
-        "title": "Call of Duty: World at War",
-        "url": "https://store.steampowered.com/app/10090/Call_of_Duty_World_at_War/"
-      },
-      {
-        "title": "Call of Duty®: Black Ops",
-        "url": "https://store.steampowered.com/app/42700/Call_of_Duty_Black_Ops/"
-      },
-      {
-        "title": "Call of Duty®: Modern Warfare® 3",
-        "url": "https://store.steampowered.com/app/115300/Call_of_Duty_Modern_Warfare_3/"
-      },
-      {
-        "title": "Call of Duty®: Black Ops II",
-        "url": "https://store.steampowered.com/app/202970/Call_of_Duty_Black_Ops_II/"
-      },
-      {
-        "title": "Call of Duty®: Modern Warfare® Remastered",
-        "url": "https://www.callofduty.com/modern-warfare-remastered"
-      },
-      {
-        "title": "Call of Duty: Modern Warfare",
-        "url": "https://www.callofduty.com/modernwarfare"
+        "url": "https://secondlife.com/",
+        "poster_url": "https://media.invisioncic.com/Mseclife/monthly_2020_03/LindenLabEmployees.jpg.6215f9e1a435c1200d5a55f31b852305.jpg",
+        "vendor": "Linden Lab", 
+        "year": 2003,
+        "played": true
       },
       {
         "title": "FiveM GTA",
-        "url": "https://fivem.net/"
+        "url": "https://fivem.net/",
+        "poster_url": "https://w0.peakpx.com/wallpaper/831/227/HD-wallpaper-los-santos-summer-special-gta-online-poster.jpg",
+        "vendor": "Cfx.re",
+        "year": 2015,
+        "played": true
+      },
+      {
+        "title": "Call of Duty: World at War",
+        "url": "https://store.steampowered.com/app/10090/Call_of_Duty_World_at_War/",
+        "vendor": "Treyarch",
+        "year": 2008,
+        "played": true,
+        "poster_url": "http://static.wikia.nocookie.net/callofduty/images/1/19/Call_of_Duty_World_at_War_cover.png/revision/latest/scale-to-width-down/500"
+      },
+      {
+        "title": "Call of Duty: Modern Warfare 2",
+        "url": "https://store.steampowered.com/app/10180/Call_of_Duty_Modern_Warfare_2/",
+        "vendor": "Infinity Ward",
+        "year": 2009,
+        "played": true,
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/d/db/Modern_Warfare_2_cover.PNG/revision/latest/scale-to-width-down/500"
+      },
+      {
+        "title": "Call of Duty: Black Ops",
+        "url": "https://store.steampowered.com/app/42700/Call_of_Duty_Black_Ops/",
+        "vendor": "Treyarch",
+        "year": 2010,
+        "played": true,
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/0/02/CoD_Black_Ops_cover.png/revision/latest/scale-to-width-down/500"
+      },
+      {
+        "title": "Call of Duty: Modern Warfare 3",
+        "url": "https://store.steampowered.com/app/115300/Call_of_Duty_Modern_Warfare_3/",
+        "vendor": "Infinity Ward & Sledgehammer",
+        "year": 2011,
+        "played": false,
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/b/bf/Call_of_Duty_Modern_Warfare_3_box_art.png/revision/latest/scale-to-width-down/500"
+      },
+      {
+        "title": "Call of Duty: Black Ops II",
+        "url": "https://store.steampowered.com/app/202970/Call_of_Duty_Black_Ops_II/",
+        "vendor": "Treyarch",
+        "year": 2012,
+        "played": true,
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/b/ba/BO2_RP_Boxart.png/revision/latest/scale-to-width-down/500"
+      },
+      {
+        "title": "Call of Duty: Ghosts",
+        "url": "https://www.callofduty.com/ghosts",
+        "vendor": "Infinity Ward",
+        "year": 2013,
+        "played": true,
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/9/9b/Call_of_Duty_Ghosts_cover.jpg/revision/latest/scale-to-width-down/500"
+      },
+      {
+        "title": "Call of Duty: Advanced Warfare",
+        "url": "https://www.callofduty.com/advancedwarfare",
+        "vendor": "Sledgehammer Games",
+        "year": 2014,
+        "played": true,
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/1/1b/Call_of_Duty_Advanced_Warfare_cover.jpg/revision/latest/scale-to-width-down/500"
+      },
+      {
+        "title": "Call of Duty: Black Ops III",
+        "url": "https://www.callofduty.com/blackops3",
+        "vendor": "Treyarch",
+        "year": 2015,
+        "played": true,
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/7/76/Game_cover_art_BOIII.jpg/revision/latest/scale-to-width-down/500"
+      },
+      
+      {
+        "title": "Call of Duty: Infinite Warfare",
+        "url": "https://www.callofduty.com/infinitewarfare",
+        "vendor": "Infinity Ward",
+        "year": 2016,
+        "played": false,
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/0/09/Game_cover_art_IW.jpg/revision/latest/scale-to-width-down/500"
+      },
+      {
+        "title": "Call of Duty: WWII",
+        "url": "https://www.callofduty.com/wwii",
+        "vendor": "Sledgehammer Games",
+        "year": 2017,
+        "played": false,
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/6/6c/COD_WWII_cover.JPG/revision/latest/scale-to-width-down/500"
+      },
+      {
+        "title": "Call of Duty: Black Ops 4",
+        "url": "https://www.callofduty.com/blackops4",
+        "vendor": "Treyarch",
+        "year": 2018,
+        "played": true,
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/0/08/Cover_Art_BO4.jpg/revision/latest/scale-to-width-down/500"
+      },
+      {
+        "title": "Call of Duty: Modern Warfare",
+        "url": "https://www.callofduty.com/modernwarfare",
+        "vendor": "Infinity Ward",
+        "year": 2019,
+        "played": true,
+        "aspect": "portrait",
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/1/15/ModernWarfare_Artwork_MW.jpg/revision/latest/scale-to-width-down/500"
+      },
+      
+      {
+        "title": "Call of Duty: Black Ops Cold War",
+        "url": "https://www.callofduty.com/blackopscoldwar",
+        "vendor": "Treyarch & Raven Software",
+        "year": 2020,
+        "played": true,
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/f/ff/Keyart_Promo_BOCW.jpg/revision/latest/scale-to-width-down/500"
+      },
+      {
+        "title": "Call of Duty: Vanguard",
+        "url": "https://www.callofduty.com/vanguard",
+        "vendor": "Sledgehammer Games",
+        "year": 2021,
+        "played": true,
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/3/3c/COD_Vanguard_Artwork.jpg/revision/latest/scale-to-width-down/500"
+      },
+      {
+        "title": "Call of Duty: Modern Warfare II",
+        "url": "https://www.callofduty.com/modernwarfare2",
+        "vendor": "Infinity Ward",
+        "year": 2022,
+        "played": true,
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/2/27/ModernWarfareII_Keyart_MWII.jpg/revision/latest/scale-to-width-down/500"
+      },
+      {
+        "title": "Call of Duty: Modern Warfare III",
+        "url": "https://www.callofduty.com/modernwarfare3",
+        "vendor": "Infinity Ward & Sledgehammer",
+        "year": 2023,
+        "played": true,
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/c/c4/ModernWarfareIII_Keyart_MWIII.jpg/revision/latest/scale-to-width-down/500"
+      },
+      {
+        "title": "Call of Duty: Black Ops 6",
+        "url": "https://www.callofduty.com/blackops6",
+        "vendor": "Treyarch",
+        "year": 2024,
+        "played": true,
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/a/a3/BlackOps6_Keyart_BO6.jpg/revision/latest/scale-to-width-down/500"
       }
     ]
   }

@@ -31,6 +31,16 @@
         "title": "CentOS",
         "url": "https://www.centos.org/",
         "description": "5.7 up to current"
+      },
+      {
+        "title": "Whonix",
+        "url": "https://www.whonix.org/",
+        "description": "Privacy focused OS"
+      },
+      {
+        "title": "Qubes OS",
+        "url": "https://www.qubes-os.org/",
+        "description": "Security focused OS"
       }
     ]
   }

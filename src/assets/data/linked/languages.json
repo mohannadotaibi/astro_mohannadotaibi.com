@@ -1,42 +1,38 @@
 {
     "title": "📚 Dev Skillz",
-    "description": "Porgramming languages, Frameworks and Development tools that I am comfortable using",
+    "description": "Programming languages, Frameworks and Development tools that I am comfortable using",
     "data": [
       {
         "title": "JAVA",
         "url": "https://www.java.com/en/download/"
       },
       {
-        "title": "Dart",
-        "url": "https://dart.dev/"
+        "title": "Python",
+        "url": "https://www.python.org/"
       },
       {
-        "title": "Flutter",
-        "url": "https://flutter.dev/"
+        "title": "C#",
+        "url": "https://docs.microsoft.com/en-us/dotnet/csharp/"
       },
       {
         "title": "PHP",
         "url": "https://www.php.net/"
       },
       {
-        "title": "CodeIgniter",
-        "url": "https://codeigniter.com/"
+        "title": "Javascript",
+        "url": "https://www.w3schools.com/js/DEFAULT.asp"
       },
       {
-        "title": "Laravel",
-        "url": "https://laravel.com/"
+        "title": "TypeScript",
+        "url": "https://www.typescriptlang.org/"
       },
       {
-        "title": "WordPress Plugins",
-        "url": "https://developer.wordpress.org/plugins/"
+        "title": "Dart",
+        "url": "https://dart.dev/"
       },
       {
-        "title": "ASP.NET",
-        "url": "https://dotnet.microsoft.com/en-us/apps/aspnet/"
-      },
-      {
-        "title": "C#",
-        "url": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+        "title": "Perl",
+        "url": "https://www.perl.org/"
       },
       {
         "title": "VBA",
@@ -47,46 +43,6 @@
         "url": "https://docs.microsoft.com/en-us/dotnet/visual-basic/"
       },
       {
-        "title": "Javascript",
-        "url": "https://www.w3schools.com/js/DEFAULT.asp"
-      },
-      {
-        "title": "NodeJs",
-        "url": "https://nodejs.org/en/"
-      },
-      {
-        "title": "Express.js",
-        "url": "https://expressjs.com/"
-      },
-      {
-        "title": "Astro",
-        "url": "https://astro.build/"
-      },
-      {
-        "title": "NuxtJS",
-        "url": "https://nuxtjs.org/"
-      },
-      {
-        "title": "AdonisJS",
-        "url": "https://adonisjs.com/"
-      },
-      {
-        "title": "Strapi",
-        "url": "https://strapi.io/"
-      },
-      {
-        "title": "Vue.js",
-        "url": "https://vuejs.org/"
-      },
-      {
-        "title": "ElectronJs",
-        "url": "https://www.electronjs.org/"
-      },
-      {
-        "title": "jQuery",
-        "url": "https://jquery.com/"
-      },
-      {
         "title": "HTML",
         "url": "https://www.w3schools.com/html/"
       },
@@ -95,24 +51,8 @@
         "url": "https://sass-lang.com/"
       },
       {
-        "title": "Bootstrap",
-        "url": "https://getbootstrap.com/"
-      },
-      {
-        "title": "Tailwind",
-        "url": "https://tailwindcss.com/resources/"
-      },
-      {
-        "title": "Jekyll",
-        "url": "https://jekyllrb.com/"
-      },
-      {
-        "title": "Python",
-        "url": "https://www.python.org/"
-      },
-      {
-        "title": "Perl",
-        "url": "https://www.perl.org/"
+        "title": "SQL (my/MS)",
+        "url": "https://www.w3schools.com/sql/"
       },
       {
         "title": "bash",
@@ -127,8 +67,88 @@
         "url": "https://www.tutorialspoint.com/powershell/powershell_scripting.htm"
       },
       {
-        "title": "SQL (my/MS)",
-        "url": "https://www.w3schools.com/sql/"
+        "title": "Markdown",
+        "url": "https://www.markdownguide.org/"
+      },
+      {
+        "title": "React",
+        "url": "https://react.dev/"
+      },
+      {
+        "title": "Vue.js",
+        "url": "https://vuejs.org/"
+      },
+      {
+        "title": "Next.js",
+        "url": "https://nextjs.org/"
+      },
+      {
+        "title": "NuxtJS",
+        "url": "https://nuxtjs.org/"
+      },
+      {
+        "title": "Astro",
+        "url": "https://astro.build/"
+      },
+      {
+        "title": "Flutter",
+        "url": "https://flutter.dev/"
+      },
+      {
+        "title": "Laravel",
+        "url": "https://laravel.com/"
+      },
+      {
+        "title": "CodeIgniter",
+        "url": "https://codeigniter.com/"
+      },
+      {
+        "title": "ASP.NET",
+        "url": "https://dotnet.microsoft.com/en-us/apps/aspnet/"
+      },
+      {
+        "title": "Express.js",
+        "url": "https://expressjs.com/"
+      },
+      {
+        "title": "AdonisJS",
+        "url": "https://adonisjs.com/"
+      },
+      {
+        "title": "NodeJs",
+        "url": "https://nodejs.org/en/"
+      },
+      {
+        "title": "ElectronJs",
+        "url": "https://www.electronjs.org/"
+      },
+      {
+        "title": "Strapi",
+        "url": "https://strapi.io/"
+      },
+      {
+        "title": "WordPress Plugins",
+        "url": "https://developer.wordpress.org/plugins/"
+      },
+      {
+        "title": "jQuery",
+        "url": "https://jquery.com/"
+      },
+      {
+        "title": "Jekyll",
+        "url": "https://jekyllrb.com/"
+      },
+      {
+        "title": "Bootstrap",
+        "url": "https://getbootstrap.com/"
+      },
+      {
+        "title": "Tailwind",
+        "url": "https://tailwindcss.com/resources/"
+      },
+      {
+        "title": "shadcn/ui",
+        "url": "https://ui.shadcn.com/"
       },
       {
         "title": "Firebase",
@@ -139,8 +159,20 @@
         "url": "https://www.docker.com/"
       },
       {
-        "title": "Markdown",
-        "url": "https://www.markdownguide.org/"
+        "title": "Expo",
+        "url": "https://expo.dev/"
+      },
+      {
+        "title": "React Native",
+        "url": "https://reactnative.dev/"
+      },
+      {
+        "title": "Zustand",
+        "url": "https://zustand-demo.pmnd.rs/"
+      },
+      {
+        "title": "Appwrite",
+        "url": "https://appwrite.io/"
       }
     ]
   }

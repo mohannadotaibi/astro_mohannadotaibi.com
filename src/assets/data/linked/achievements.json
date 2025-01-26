@@ -3,6 +3,12 @@
     "description": "pieces of work done that I'm proud of",
     "data": [
       {
+        "title": "أداة تحويل النصوص العربية بالمعكوس",
+        "description": "A web-page that helps write Arabic in applications that do not support Arabic, such as legacy Photoshop, Call of Duty, ...etc",
+        "url": "https://arabic-keyboard.mo9a7i.com/",
+        "arabic": true
+      },
+      {
         "title": "أشياء لازم تتفاهم مع شركة البرمجة عليها بخصوص تطبيقك الجديد",
         "url": "https://github.6degrees.com.sa/",
         "arabic": true
@@ -11,6 +17,26 @@
         "title": "تجربتي في غسل مذربورد MBP 13 i7 من آثار شاهي",
         "url": "https://www.adslgate.com/dsl/showthread.php?t=1180584",
         "arabic": true
+      },
+      {
+        "title": "لماذا لايعمل الدومين الخاص بي مباشرة بعد حجزه؟",
+        "url": "http://web.archive.org/web/20150517010722/http://www.traidnt.net/vb/traidnt1027285-2/",
+        "arabic": true
+      },
+      {
+        "title": "GitHub Stats Dashboard",
+        "description": "Generates beautiful, interactive GitHub statistics dashboards for organizations and personal repositories",
+        "url": "https://mo9a7i.github.io/github_stats/"
+      },
+      {
+        "title": "Huawei 5G CPE Pro 2 Port Forwarding Guide", 
+        "description": "A comprehensive guide for configuring port forwarding on the Huawei 5G CPE Pro 2 router to achieve Open NAT Type",
+        "url": "https://mo9a7i.github.io/huawei-5g-cpe-pro-2-port-forwarding/"
+      },
+      {
+        "title": "Mother of all Lighthouse Reports",
+        "description": "Here you can check the latest Lighthouse reports for our websites",
+        "url": "https://lighthouse.6d.com.sa/"
       },
       {
         "title": "vBulletinner.sh",
@@ -32,27 +58,6 @@
       {
         "title": "Path App API Wrapper",
         "url": "https://github.com/mo9a7i/CI_Path_API"
-      },
-      {
-        "title": "لماذا لايعمل الدومين الخاص بي مباشرة بعد حجزه؟",
-        "url": "http://web.archive.org/web/20150517010722/http://www.traidnt.net/vb/traidnt1027285-2/",
-        "arabic": true
-      },
-      {
-        "title": "arabicStrings (NPM)",
-        "url": "https://www.npmjs.com/package/@6degrees/arabic-strings"
-      },
-      {
-        "title": "Source Code Spitter (NPM)",
-        "url": "https://www.npmjs.com/package/@6degrees/source-code-spitter"
-      },
-      {
-        "title": "Swarmapp API Wrapper (NPM)",
-        "url": "https://www.npmjs.com/package/swarmapp-api"
-      },
-      {
-        "title": "أداة كتابة بالعربي بالمقلوب للألعاب والفوتوشوب والبرامج اللي ماتدعم عربي",
-        "url": "https://arabic-keyboard.mo9a7i.com"
       }
     ]
   }

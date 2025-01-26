@@ -41,7 +41,7 @@ console.log(`${content.title.padEnd(25)} ${xlColSize.toString().padEnd(5)} ${col
 
 <section class="my-20">
 	<Title title={title} description={description} />
-	<div class={`grid ${gridSizes[colSize]} ${mdGridSizes[xlColSize]} gap-2 md:gap-4`}>
+	<div class={`grid ${gridSizes[colSize]} ${mdGridSizes[xlColSize]} gap-2`}>
 		{data.map((item: any) => (
 			<Link {...item} />
 		))}

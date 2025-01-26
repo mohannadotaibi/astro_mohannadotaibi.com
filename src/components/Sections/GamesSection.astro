@@ -1,0 +1,77 @@
+---
+import Title from './Title.astro';
+import getIcon from '../../utilities/getIcon';
+import getGamePoster from '../../utilities/getGamePoster';
+
+export interface Props {
+  content: any;
+}
+
+const { content } = Astro.props;
+const { title, description, data } = content;
+
+const getAspectRatioClass = (aspect: string = 'portrait') => {
+  return aspect === 'video' ? 'aspect-video' : 'aspect-[2/3]';
+};
+---
+
+<section class="my-20">
+  <Title title={title} description={description} />
+  
+  <div class="grid grid-cols-4 lg:grid-cols-8 gap-4">
+    {data.map(async (game: any) => {
+      const fallbackImage = await getIcon(game.url);
+      let imagePath = null;
+      
+      if (game.poster_url) {
+        imagePath = await getGamePoster(game.poster_url, game.title);
+      }
+      
+      imagePath = imagePath || (fallbackImage?.replaceAll('\\','/').replaceAll('public', ''));
+      const aspectRatioClass = getAspectRatioClass(game.aspect);
+      
+      return (
+        <a 
+          href={game.url} 
+          class={`relative group overflow-hidden rounded-lg ${aspectRatioClass} bg-slate-900 hover:z-10 hover:scale-110 transition-all duration-300 shadow-sm  shadow-white/10`}
+        >
+          <!-- Background Image -->
+          <div 
+            class={`absolute  w-full h-full bg-cover bg-center transition-all duration-500
+              ${!game.played ? 'grayscale' : 'group-hover:scale-110'}`}
+            style={`background-image: url(${imagePath})`}
+          >
+          </div>
+          
+          <!-- Gradient Overlay -->
+          <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black/90 via-black/50 to-black/30 
+            group-hover:from-black/70 group-hover:via-black/40 transition-all duration-300">
+          </div>
+          
+          <!-- Content -->
+          <div class="relative h-full flex flex-col justify-between p-1 lg:p-2">
+            <div class="transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+              <h3 class="text-sm lg:text-md font-bold text-white mb-1">
+                {game.title}
+              </h3>
+              <p class="text-sm text-gray-300 opacity-90 line-clamp-1">
+                {game.vendor}
+              </p>
+            </div>
+            
+            <div class="flex justify-between items-center opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+              <span class="text-sm text-gray-400">
+                {game.year}
+              </span>
+              {!game.played && (
+                <span class="px-2 py-1 text-xs bg-gray-800/80 text-gray-300 rounded">
+                  Not Played
+                </span>
+              )}
+            </div>
+          </div>
+        </a>
+      );
+    })}
+  </div>
+</section> 

@@ -1,0 +1,46 @@
+{
+    "title": "🔗 Contributions",
+    "description": "To the open source community",
+    "data": [
+      {
+        "title": "Nebula (CoD)",
+        "description": "Added Translation and a Beamsmasher Calculator with tools page",
+        "url": "https://github.com/carlssonemil/nebula"
+      },
+      {
+        "title": "SaudiOSS",
+        "description": "Created a page for the Saudi Open Source Society with Astro js",
+        "url": "https://github.com/mo9a7i/SaudiOSS"
+      },
+      {
+        "title": "UniGetUI",
+        "description": "Arabic Translation for UniGetUI",
+        "url": "https://github.com/marticliment/UniGetUI/?tab=readme-ov-file#translating-unigetui-to-other-languages"
+      },
+      {
+        "title": "@flowdegree/swarmapp-api",
+        "description": "The swarmapp-api repository is a Node.js library that provides a programmatic interface to the SwarmApp API (Foursquare), which is the official API for the SwarmApp social networking app.",
+        "url": "https://www.npmjs.com/package/@flowdegree/swarmapp-api"
+      },
+      {
+        "title": "@6degrees/node-cron-utils",
+        "description": "Private utilities for handling cron expressions, including functionality to double cron intervals",
+        "url": "https://www.npmjs.com/package/@6degrees/node-cron-utils"
+      },
+      {
+        "title": "@6degrees/f6snypi",
+        "description": "An API wrapper for the F6sny API service",
+        "url": "https://www.npmjs.com/package/@6degrees/f6snypi"
+      },
+      {
+        "title": "@flowdegree/arabic-strings",
+        "description": "A library for handling Arabic strings, including removing diacritics and normalizing characters",
+        "url": "https://www.npmjs.com/package/@flowdegree/arabic-strings"
+      },
+      {
+        "title": "@flowdegree/spit-it",
+        "description": "CLI tool that generates a single dump file containing all source code files within a directory, respecting .gitignore and .spitignore",
+        "url": "https://www.npmjs.com/package/@flowdegree/spit-it"
+      }
+    ]
+}

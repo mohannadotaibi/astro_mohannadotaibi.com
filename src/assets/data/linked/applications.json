@@ -3,216 +3,349 @@
     "description": "My basic setups for each PC",
     "data": [
       {
-        "title": "TechPowerUp GPU-Z",
-        "url": "https://www.techpowerup.com/download/techpowerup-gpu-z/"
+        "title": "DeepSeek",
+        "url": "https://deepseek.com/",
+        "tags": ["ai", "productivity"]
       },
       {
-        "title": "WinUtil",
-        "url": "https://github.com/ChrisTitusTech/winutil"
+        "title": "Claude",
+        "url": "https://claude.ai/",
+        "tags": ["ai", "productivity"] 
       },
       {
-        "title": "DevToys",
-        "url": "https://devtoys.app/"
+        "title": "ChatGPT",
+        "url": "https://chat.openai.com/",
+        "tags": ["ai", "productivity"]
       },
       {
-        "title": "SAP S4HANA",
-        "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE"
-      },
-      {
-        "title": "SAP Ariba",
-        "url": "https://www.sap.com/mena/products/spend-management/ariba-login.html"
-      },
-      {
-        "title": "VS Code",
-        "url": "https://code.visualstudio.com/"
-      },
-      {
-        "title": "Insomnia",
-        "url": "https://insomnia.rest/"
-      },
-      {
-        "title": "Termius",
-        "url": "https://termius.com/"
-      },
-      {
-        "title": "GitHub Desktop",
-        "url": "https://desktop.github.com/"
-      },
-      {
-        "title": "Docker Desktop",
-        "url": "https://www.docker.com/products/docker-desktop/"
-      },
-      {
-        "title": "WinSCP",
-        "url": "https://winscp.net/eng/download.php"
-      },
-      {
-        "title": "MySQL Workbench",
-        "url": "https://www.mysql.com/products/workbench/"
-      },
-      {
-        "title": "Chocolatey",
-        "url": "https://chocolatey.org/"
-      },
-      {
-        "title": "Homebrew",
-        "url": "https://brew.sh/"
-      },
-      {
-        "title": "Winget",
-        "url": "https://learn.microsoft.com/en-us/windows/package-manager/winget/"
-      },
-      {
-        "title": "Figma",
-        "url": "https://www.figma.com/"
-      },
-      {
-        "title": "VMWare Workstation",
-        "url": "https://www.vmware.com/products/workstation-pro.html"
-      },
-      {
-        "title": "VMWare ESXi",
-        "url": "https://www.vmware.com/products/esxi-and-esx.html"
-      },
-      {
-        "title": "VM VirtualBox",
-        "url": "https://www.virtualbox.org/"
-      },
-      {
-        "title": "Fiddler",
-        "url": "https://www.telerik.com/fiddler/"
-      },
-      {
-        "title": "K-Lite",
-        "url": "https://codecguide.com/download_kl.htm"
-      },
-      {
-        "title": "Streamlabs OBS",
-        "url": "https://streamlabs.com/"
-      },
-      {
-        "title": "SteelSeries GG",
-        "url": "https://steelseries.com/gg/"
-      },
-      {
-        "title": "Discord",
-        "url": "https://discord.com/"
-      },
-      {
-        "title": "Steam",
-        "url": "https://store.steampowered.com/"
-      },
-      {
-        "title": "Stremio",
-        "url": "https://www.stremio.com/"
-      },
-      {
-        "title": "WinDirStat",
-        "url": "https://windirstat.net/"
-      },
-      {
-        "title": "Advanced IP Scanner",
-        "url": "https://www.advanced-ip-scanner.com/"
-      },
-      {
-        "title": "Recuva",
-        "url": "https://www.ccleaner.com/recuva"
-      },
-      {
-        "title": "Revo Uninstaller",
-        "url": "https://www.revouninstaller.com/"
-      },
-      {
-        "title": "Chrome",
-        "url": "https://www.google.com/chrome/"
-      },
-      {
-        "title": "FireFox",
-        "url": "https://www.mozilla.org/en-US/firefox/new/"
-      },
-      {
-        "title": "Brave Browser",
-        "url": "https://brave.com/"
-      },
-      {
-        "title": "MS Office",
-        "url": "https://www.microsoft.com/en-us/microsoft-365/get-started-with-office-2019"
-      },
-      {
-        "title": "Adobe Suite",
-        "url": "https://www.adobe.com/creativecloud.html"
-      },
-      {
-        "title": "Free Download Manager",
-        "url": "https://www.freedownloadmanager.org/"
-      },
-      {
-        "title": "7-zip",
-        "url": "https://www.7-zip.org/"
-      },
-      {
-        "title": "CCleaner",
-        "url": "https://www.ccleaner.com/"
-      },
-      {
-        "title": "Grammarly",
-        "url": "https://developer.grammarly.com/"
-      },
-      {
-        "title": "Google Drive",
-        "url": "https://www.google.com/drive/download/"
-      },
-      {
-        "title": "Warp",
-        "url": "https://1.1.1.1/"
-      },
-      {
-        "title": "PowerToys",
-        "url": "https://www.cgsecurity.org/wiki/TestDisk"
-      },
-      {
-        "title": "TestDisk",
-        "url": "https://github.com/microsoft/PowerToys/"
-      },
-      {
-        "title": "BitWarden",
-        "url": "https://bitwarden.com/"
+        "title": "Windmill",
+        "url": "https://www.windmill.dev/",
+        "tags": ["development", "automation"]
       },
       {
         "title": "Cursor AI",
-        "url": "https://www.cursor.com/"
-      },
-      {
-        "title": "HeidiSQL",
-        "url": "https://www.heidisql.com/"
-      },
-      {
-        "title": "Hoppscotch",
-        "url": "https://hoppscotch.io/"
+        "url": "https://www.cursor.com/",
+        "tags": ["development", "ai", "code-editor"]
       },
       {
         "title": "Linear",
-        "url": "https://linear.app/"
+        "url": "https://linear.app/",
+        "tags": ["project-management", "productivity"]
       },
       {
-        "title": "Screaming Frog SEO Spider",
-        "url": "https://www.screamingfrog.co.uk/seo-spider/"
+        "title": "Hoppscotch",
+        "url": "https://hoppscotch.io/",
+        "tags": ["development", "api-testing"]
       },
       {
-        "title": "Rapid Environment Editor",
-        "url": "https://www.rapidee.com/"
+        "title": "DevToys",
+        "url": "https://devtoys.app/",
+        "tags": ["development", "utilities"]
       },
       {
         "title": "Ente Auth",
-        "url": "https://ente.io/auth/"
+        "url": "https://ente.io/auth/",
+        "tags": ["security", "authentication"]
       },
       {
-        "title": "Speccy",
-        "url": "https://www.ccleaner.com/speccy"
+        "title": "Docker",
+        "url": "https://www.docker.com/",
+        "tags": ["development", "containerization"]
+      },
+      {
+        "title": "Terraform",
+        "url": "https://www.terraform.io/",
+        "tags": ["devops", "infrastructure"]
+      },
+      {
+        "title": "Ansible",
+        "url": "https://www.ansible.com/",
+        "tags": ["devops", "automation"]
+      },
+      {
+        "title": "Docker Desktop",
+        "url": "https://www.docker.com/products/docker-desktop/",
+        "tags": ["development", "containerization"]
+      },
+      {
+        "title": "VS Code",
+        "url": "https://code.visualstudio.com/",
+        "tags": ["development", "code-editor"]
+      },
+      {
+        "title": "Insomnia",
+        "url": "https://insomnia.rest/",
+        "tags": ["development", "api-testing"]
+      },
+      {
+        "title": "Termius",
+        "url": "https://termius.com/",
+        "tags": ["development", "ssh-client"]
+      },
+      {
+        "title": "GitHub Desktop",
+        "url": "https://desktop.github.com/",
+        "tags": ["development", "version-control"]
+      },
+      {
+        "title": "BitWarden",
+        "url": "https://bitwarden.com/",
+        "tags": ["security", "password-manager"]
+      },
+      {
+        "title": "PowerToys",
+        "url": "https://www.cgsecurity.org/wiki/TestDisk",
+        "tags": ["utilities", "productivity"]
+      },
+      {
+        "title": "Warp",
+        "url": "https://1.1.1.1/",
+        "tags": ["security", "networking"]
+      },
+      {
+        "title": "Brave Browser",
+        "url": "https://brave.com/",
+        "tags": ["browser", "privacy"]
+      },
+      {
+        "title": "Figma",
+        "url": "https://www.figma.com/",
+        "tags": ["design", "collaboration"]
       },
       {
         "title": "Slack",
-        "url": "https://slack.com/"
+        "url": "https://slack.com/",
+        "tags": ["communication", "collaboration"]
+      },
+      {
+        "title": "Discord",
+        "url": "https://discord.com/",
+        "tags": ["communication", "gaming"]
+      },
+      {
+        "title": "Streamlabs OBS",
+        "url": "https://streamlabs.com/",
+        "tags": ["streaming", "content-creation"]
+      },
+      {
+        "title": "SteelSeries GG",
+        "url": "https://steelseries.com/gg/",
+        "tags": ["gaming", "peripherals"]
+      },
+      {
+        "title": "Steam",
+        "url": "https://store.steampowered.com/",
+        "tags": ["gaming"]
+      },
+      {
+        "title": "Stremio",
+        "url": "https://www.stremio.com/",
+        "tags": ["media", "entertainment"]
+      },
+      {
+        "title": "SAP S4HANA",
+        "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE",
+        "tags": ["enterprise", "erp"]
+      },
+      {
+        "title": "SAP Ariba",
+        "url": "https://www.sap.com/mena/products/spend-management/ariba-login.html",
+        "tags": ["enterprise", "procurement"]
+      },
+      {
+        "title": "WinUtil",
+        "url": "https://github.com/ChrisTitusTech/winutil",
+        "tags": ["utilities", "windows"]
+      },
+      {
+        "title": "WinSCP",
+        "url": "https://winscp.net/eng/download.php",
+        "tags": ["development", "ftp-client"]
+      },
+      {
+        "title": "MySQL Workbench",
+        "url": "https://www.mysql.com/products/workbench/",
+        "tags": ["development", "database"]
+      },
+      {
+        "title": "HeidiSQL",
+        "url": "https://www.heidisql.com/",
+        "tags": ["development", "database"]
+      },
+      {
+        "title": "VMWare Workstation",
+        "url": "https://www.vmware.com/products/workstation-pro.html",
+        "tags": ["virtualization"]
+      },
+      {
+        "title": "VMWare ESXi",
+        "url": "https://www.vmware.com/products/esxi-and-esx.html",
+        "tags": ["virtualization", "server"]
+      },
+      {
+        "title": "VM VirtualBox",
+        "url": "https://www.virtualbox.org/",
+        "tags": ["virtualization"]
+      },
+      {
+        "title": "Fiddler",
+        "url": "https://www.telerik.com/fiddler/",
+        "tags": ["development", "network-debugging"]
+      },
+      {
+        "title": "K-Lite",
+        "url": "https://codecguide.com/download_kl.htm",
+        "tags": ["media", "codecs"]
+      },
+      {
+        "title": "WinDirStat",
+        "url": "https://windirstat.net/",
+        "tags": ["utilities", "disk-analyzer"]
+      },
+      {
+        "title": "Advanced IP Scanner",
+        "url": "https://www.advanced-ip-scanner.com/",
+        "tags": ["networking", "utilities"]
+      },
+      {
+        "title": "Recuva",
+        "url": "https://www.ccleaner.com/recuva",
+        "tags": ["utilities", "file-recovery"]
+      },
+      {
+        "title": "Revo Uninstaller",
+        "url": "https://www.revouninstaller.com/",
+        "tags": ["utilities", "uninstaller"]
+      },
+      {
+        "title": "Chrome",
+        "url": "https://www.google.com/chrome/",
+        "tags": ["browser"]
+      },
+      {
+        "title": "FireFox",
+        "url": "https://www.mozilla.org/en-US/firefox/new/",
+        "tags": ["browser", "privacy"]
+      },
+      {
+        "title": "MS Office",
+        "url": "https://www.microsoft.com/en-us/microsoft-365/get-started-with-office-2019",
+        "tags": ["productivity", "office"]
+      },
+      {
+        "title": "Adobe Suite",
+        "url": "https://www.adobe.com/creativecloud.html",
+        "tags": ["design", "creativity"]
+      },
+      {
+        "title": "Free Download Manager",
+        "url": "https://www.freedownloadmanager.org/",
+        "tags": ["utilities", "download-manager"]
+      },
+      {
+        "title": "7-zip",
+        "url": "https://www.7-zip.org/",
+        "tags": ["utilities", "compression"]
+      },
+      {
+        "title": "CCleaner",
+        "url": "https://www.ccleaner.com/",
+        "tags": ["utilities", "system-cleanup"]
+      },
+      {
+        "title": "Grammarly",
+        "url": "https://developer.grammarly.com/",
+        "tags": ["productivity", "writing"]
+      },
+      {
+        "title": "Google Drive",
+        "url": "https://www.google.com/drive/download/",
+        "tags": ["cloud-storage", "productivity"]
+      },
+      {
+        "title": "TestDisk",
+        "url": "https://github.com/microsoft/PowerToys/",
+        "tags": ["utilities", "data-recovery"]
+      },
+      {
+        "title": "Screaming Frog SEO Spider",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/",
+        "tags": ["seo", "web-analysis"]
+      },
+      {
+        "title": "Rapid Environment Editor",
+        "url": "https://www.rapidee.com/",
+        "tags": ["development", "environment-variables"]
+      },
+      {
+        "title": "Speccy",
+        "url": "https://www.ccleaner.com/speccy",
+        "tags": ["utilities", "system-info"]
+      },
+      {
+        "title": "TechPowerUp GPU-Z",
+        "url": "https://www.techpowerup.com/download/techpowerup-gpu-z/",
+        "tags": ["utilities", "hardware-info"]
+      },
+      {
+        "title": "Chocolatey",
+        "url": "https://chocolatey.org/",
+        "tags": ["package-manager", "windows"]
+      },
+      {
+        "title": "Homebrew",
+        "url": "https://brew.sh/",
+        "tags": ["package-manager", "macos"]
+      },
+      {
+        "title": "Winget",
+        "url": "https://learn.microsoft.com/en-us/windows/package-manager/winget/",
+        "tags": ["package-manager", "windows"]
+      },
+      {
+        "title": "pnpm",
+        "url": "https://pnpm.io/",
+        "tags": ["package-manager", "development", "javascript"]
+      },
+      {
+        "title": "Bun",
+        "url": "https://bun.sh/",
+        "tags": ["runtime", "development", "javascript"]
+      },
+      {
+        "title": "Grafana",
+        "url": "https://grafana.com/",
+        "tags": ["monitoring", "visualization", "analytics"]
+      },
+      {
+        "title": "Prometheus",
+        "url": "https://prometheus.io/",
+        "tags": ["monitoring", "metrics", "observability"]
+      },
+      {
+        "title": "Kibana",
+        "url": "https://www.elastic.co/kibana/",
+        "tags": ["monitoring", "visualization", "logging"]
+      },
+      {
+        "title": "Logstash",
+        "url": "https://www.elastic.co/logstash/",
+        "tags": ["logging", "data-processing", "observability"]
+      },
+      {
+        "title": "Fluent Bit",
+        "url": "https://fluentbit.io/",
+        "tags": ["logging", "data-collection", "observability"]
+      },
+      {
+        "title": "Veeam",
+        "url": "https://www.veeam.com/",
+        "tags": ["backup", "disaster-recovery", "virtualization"]
+      },
+      {
+        "title": "Coolify",
+        "url": "https://coolify.io/",
+        "tags": ["deployment", "self-hosting", "devops"]
       }
     ]
   }
