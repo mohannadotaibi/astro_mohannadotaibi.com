@@ -21,6 +21,21 @@
         "text": "It is not the strongest species that survive, nor the most intelligent, but the ones responsive to change.",
         "author": "Charles Darwin",
         "source": ""
+      },
+      {
+        "text":"As a programmer, it is your job to put yourself out of business. What you do today can be automated tomorrow",
+        "author": "Doug McIlroy",
+        "source": ""
+      },
+      {
+        "text":"Never spend 6 minutes doing something by hand when you can spend 6 hours failing to automate it",
+        "author": "Zhuowei Zhang",
+        "source": ""
+      },
+      {
+        "text":"Automated testing is a safety net that protects the program from its programmers.",
+        "author": "Yegor Bugayenko",
+        "source": ""
       }
     ]
   }

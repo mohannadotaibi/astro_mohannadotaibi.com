@@ -14,8 +14,8 @@ const { content, xlColSize=2, colSize=1 } = Astro.props;
 <section class="my-12">
 	<Title title={content.title} description={content.description} />
 
-	<div class="container mx-auto px-4">
-		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+	<div class="container mx-auto">
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
 			{content.data.map((item: any) => (
 				<Quote text={item.text} author={item.author} source={item.source} />
 			))}
