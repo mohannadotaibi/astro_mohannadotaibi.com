@@ -1,6 +1,6 @@
 ---
 import mfo_picture from '../../assets/images/mfo_picture.jpg';
-import { Image } from '@astrojs/image/components';
+import { Image } from 'astro:assets';
 import general from '../../assets/data/general.json';
 import Tags from './Tags.astro';
 ---
@@ -15,7 +15,7 @@ import Tags from './Tags.astro';
     ">
 
     <div class="flex flex-col items-center justify-center text-center mb-10">
-        <Image class="rounded w-24 h-24 mb-4" src={mfo_picture} alt="Mohannad Otaibi Picture" format="webp" />
+        <Image class="rounded w-24 h-24 mb-4" width={96} height={96} src={mfo_picture} alt="Mohannad Otaibi Picture" format="webp" />
         <div class="title">
             <h1 class="text-4xl md:text-5xl font-extrabold m-0 mb-2">{general.title}</h1>
             <p class="text-slate-500 dark:text-slate-400">{general.description}</p>

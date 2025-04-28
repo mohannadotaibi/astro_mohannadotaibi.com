@@ -1,5 +1,6 @@
-/// <reference types="@astrojs/image/client" />
+/// <reference types="@astrojs/client" />
 import cheerio from 'cheerio';
+
 
 declare global {
   const cheerio: CheerioAPI;

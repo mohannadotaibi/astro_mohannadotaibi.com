@@ -1,6 +1,5 @@
 import fs from 'fs/promises';
 import path from 'path';
-import fetch from 'node-fetch';
 
 const POSTERS_DIR = 'public/assets/images/games';
 
