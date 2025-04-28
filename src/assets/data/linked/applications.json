@@ -2,6 +2,47 @@
     "title": "💻 PC Softwares",
     "description": "My basic setups for each PC",
     "data": [
+      
+      {
+        "title": "Kubernetes",
+        "url": "https://kubernetes.io/",
+        "tags": ["container-orchestration", "cloud-native", "devops"]
+      },
+      {
+        "title": "Argo CD",
+        "url": "https://argo-cd.readthedocs.io/",
+        "tags": ["gitops", "kubernetes", "devops"]
+      },
+      {
+        "title": "Vault",
+        "url": "https://www.vaultproject.io/",
+        "tags": ["security", "secrets-management", "devops"]
+      },
+      {
+        "title": "Helm",
+        "url": "https://helm.sh/",
+        "tags": ["kubernetes", "package-manager", "devops"]
+      },
+      {
+        "title": "Rancher",
+        "url": "https://rancher.com/",
+        "tags": ["kubernetes", "devops"]
+      },
+      {
+        "title": "Windmill",
+        "url": "https://www.windmill.dev/",
+        "tags": ["development", "automation"]
+      },
+      {
+        "title": "Longhorn",
+        "url": "https://longhorn.io/",
+        "tags": ["kubernetes", "storage"]
+      },
+      {
+        "title": "Kong Gateway",
+        "url": "https://konghq.com/kong/",
+        "tags": ["api-gateway", "cloud-native", "devops"]
+      },
       {
         "title": "DeepSeek",
         "url": "https://deepseek.com/",

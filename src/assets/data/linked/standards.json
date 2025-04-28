@@ -3,6 +3,18 @@
     "description": "I try to go by and use",
     "data": [
       {
+        "title": "Microservices",
+        "url": "https://microservices.io/"
+      },
+      {
+        "title": "DevOps",
+        "url": "https://www.atlassian.com/devops"
+      },
+      {
+        "title": "FinOps",
+        "url": "https://www.finops.org/"
+      },
+      {
         "title": "Serverless",
         "url": "https://serverless.css-tricks.com/services/"
       },
@@ -38,5 +50,6 @@
         "title": "Article Publishing Guidelines",
         "url": "https://web.archive.org/web/20120507051131/https://www.readability.com/publishers/guidelines/"
       }
+      
     ]
   }
