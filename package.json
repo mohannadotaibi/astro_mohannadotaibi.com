@@ -30,6 +30,8 @@
   },
   "devDependencies": {
     "@types/google.maps": "^3.53.4",
-    "@types/node": "^20.4.1"
-  }
+    "@types/node": "^20.4.1",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@9.5.0"
 }

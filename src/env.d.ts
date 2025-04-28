@@ -1,4 +1,4 @@
-/// <reference types="@astrojs/client" />
+/// <reference types="astro/client" />
 import cheerio from 'cheerio';
 
 

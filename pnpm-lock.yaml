@@ -66,6 +66,9 @@ importers:
       '@types/node':
         specifier: ^20.4.1
         version: 20.17.32
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
 
 packages:
 
