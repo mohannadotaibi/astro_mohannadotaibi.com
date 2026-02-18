@@ -3,6 +3,14 @@
     "description": "of Websites I enjoy browsing, or need, most of the time",
     "data": [
       {
+        "title": "daily.dev",
+        "url": "https://app.daily.dev/"
+      },
+      {
+        "title": "Hugging Face",
+        "url": "https://huggingface.co/"
+      },
+      {
         "title": "Ali BuSaleh",
         "url": "https://www.alibslh.me/"
       },

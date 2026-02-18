@@ -3,6 +3,14 @@
     "description": "I play when I have time",
     "data": [
       {
+        "title": "Call of Duty: Black Ops 7",
+        "url": "https://www.callofduty.com/blackops7",
+        "poster_url": "https://static.wikia.nocookie.net/callofduty/images/2/26/BlackOps7_Keyart_BO7.jpg/revision/latest/scale-to-width-down/500",
+        "vendor": "Treyarch",
+        "year": 2025,
+        "played": false
+      },
+      {
         "title": "Doom 95",
         "url": "https://www.amazon.com/Ultimate-Doom-Windows-95/dp/B004UYREC4",
         "poster_url": "https://m.media-amazon.com/images/I/51HENP1sj-L.jpg",

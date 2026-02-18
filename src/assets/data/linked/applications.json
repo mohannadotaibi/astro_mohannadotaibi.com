@@ -2,7 +2,26 @@
     "title": "💻 PC Softwares",
     "description": "My basic setups for each PC",
     "data": [
-      
+      {
+        "title": "ComfyUI",
+        "url": "https://github.com/comfyanonymous/ComfyUI",
+        "tags": ["ai", "image-generation"]
+      },
+      {
+        "title": "LM Studio",
+        "url": "https://lmstudio.ai/",
+        "tags": ["ai", "local-llm"]
+      },
+      {
+        "title": "Ostris AI Toolkit",
+        "url": "https://ostris.com/",
+        "tags": ["ai", "utilities"]
+      },
+      {
+        "title": "CPU-Z",
+        "url": "https://www.cpuid.com/softwares/cpu-z.html",
+        "tags": ["utilities", "hardware-info"]
+      },
       {
         "title": "Kubernetes",
         "url": "https://kubernetes.io/",
